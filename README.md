@@ -29,12 +29,31 @@ Website ini dirancang sesuai **Rubrik E-Portfolio 1 PPG Prajabatan**, mencakup 5
 ```
 E-Portofolio_PPG_Prajabatan_2026/
 │
-├── index.html        # Halaman utama website
-├── style.css         # Styling dan desain visual
-├── script.js         # Interaktivitas dan animasi
+├── index.html              # Halaman utama website
+│
+├── css/                    # CSS modular per-section
+│   ├── base.css            # Reset, variabel, base styling
+│   ├── nav.css             # Navigation styles
+│   ├── profil.css          # About/Profile section
+│   ├── pendidikan.css      # Education timeline
+│   ├── artefak.css         # Portfolio/artifacts
+│   ├── skills.css          # Skills & certificates
+│   ├── model-guru.css      # Philosophy section
+│   ├── kontak.css          # Contact form & footer
+│   ├── responsive.css      # Media queries
+│   └── dark-mode.css       # Dark mode styles
+│
+├── js/                     # JavaScript modular
+│   ├── main.js             # Core interactions (nav, typed text, scroll reveal)
+│   ├── artefak.js          # Portfolio filtering & modal logic
+│   └── particles.js        # Particle animation system
+│
 ├── assets/
-│   └── img/          # Gambar dan media
-└── README.md         # Dokumentasi ini
+│   └── img/                # Gambar dan media
+│
+├── .gitignore              # Git ignore rules
+├── CONTRIBUTING.md         # Panduan kontribusi
+└── README.md               # Dokumentasi ini
 ```
 
 ---
@@ -71,10 +90,28 @@ Beranda | Profil | Pendidikan | Artefak | Penilaian | Model Guru | Kontak
 
 ## 📌 Cara Penggunaan
 
-1. Clone atau download repository ini
-2. Buka file `index.html` di browser
+1. Clone atau download repository ini:
+   ```bash
+   git clone https://github.com/fannyf123/E_Portofolio_PPG_Prajabatan_2026.git
+   ```
+2. Buka file `index.html` di browser (tidak memerlukan web server)
 3. Edit konten di `index.html` sesuai data asli Anda
-4. Upload ulang ke GitHub Pages
+4. Sesuaikan style per-section di folder `css/` (setiap file berisi satu section)
+5. Sesuaikan logika JavaScript di folder `js/` sesuai kebutuhan
+6. Upload ulang ke GitHub Pages atau hosting lainnya
+
+### 🔧 Pengembangan Lokal
+
+```bash
+# Clone repository
+git clone https://github.com/fannyf123/E_Portofolio_PPG_Prajabatan_2026.git
+cd E_Portofolio_PPG_Prajabatan_2026
+
+# Buka langsung di browser
+open index.html        # macOS
+start index.html       # Windows
+xdg-open index.html    # Linux
+```
 
 ---
 
