@@ -133,55 +133,77 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  function openModal(modalId) {
+  function openModal(modalId, viewMode) {
     const data = artifactData[modalId] || artifactData['modal-rpp1'];
     const fileUrl = data.fileUrl || '';
     const canPreviewPdf = Boolean(fileUrl && /\.pdf(?:$|[?#])/i.test(fileUrl));
 
-    let prosHtml = data.pros.map(p => `<li>✅ ${p}</li>`).join('');
-    let consHtml = data.cons.map(c => `<li>⚠️ ${c}</li>`).join('');
-
-    let filePreviewHtml = '';
-    if (canPreviewPdf) {
-      filePreviewHtml = `
-        <div class="pdf-preview" style="margin-top: 30px; border-top: 2px dashed #DEE2E8; padding-top: 20px;">
-          <h4 style="margin-bottom: 16px;">📄 Preview Dokumen Full</h4>
-          <iframe src="${fileUrl}#toolbar=0" style="width: 100%; height: 60vh; border: 1px solid #DEE2E8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);" title="PDF Preview"></iframe>
+    if (viewMode === 'pdf' && canPreviewPdf) {
+      // Tampilan HANYA PDF
+      modalContent.innerHTML = `
+        <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: none; padding-bottom: 0;">
+          <div>
+            <h3 style="margin-bottom: 4px;">${data.title}</h3>
+            <p style="margin-bottom: 0;">Preview Dokumen</p>
+          </div>
+          <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 8px 16px; background: var(--teal); color: white; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 0.9rem; transition: background 0.3s;">
+            Buka di Tab Baru ↗
+          </a>
+        </div>
+        <div class="modal-body" style="height: 75vh; padding-top: 16px;">
+          <iframe src="${fileUrl}#toolbar=0" style="width: 100%; height: 100%; border: 1px solid #DEE2E8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);" title="PDF Preview"></iframe>
         </div>
       `;
-    } else if (fileUrl) {
-      filePreviewHtml = `
-        <div class="modal-files" style="margin-top: 20px;">
-          <h4>📎 File Artefak</h4>
-          <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background: #FF6B6B; color: white; border-radius: 8px; font-weight: 600;">Buka File</a>
+    } else {
+      // Tampilan ANALISIS (default)
+      let prosHtml = data.pros.map(p => `<li>✅ ${p}</li>`).join('');
+      let consHtml = data.cons.map(c => `<li>⚠️ ${c}</li>`).join('');
+
+      let filePreviewHtml = '';
+      if (canPreviewPdf) {
+        filePreviewHtml = `
+          <div class="pdf-preview" style="margin-top: 30px; border-top: 2px dashed #DEE2E8; padding-top: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+              <h4 style="margin: 0;">📄 Preview Dokumen Full</h4>
+              <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; color: var(--teal); font-weight: 600; text-decoration: none;">Buka di Tab Baru ↗</a>
+            </div>
+            <iframe src="${fileUrl}#toolbar=0" style="width: 100%; height: 60vh; border: 1px solid #DEE2E8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);" title="PDF Preview"></iframe>
+          </div>
+        `;
+      } else if (fileUrl) {
+        filePreviewHtml = `
+          <div class="modal-files" style="margin-top: 20px;">
+            <h4>📎 File Artefak</h4>
+            <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background: #FF6B6B; color: white; border-radius: 8px; font-weight: 600; text-decoration: none;">Buka File</a>
+          </div>
+        `;
+      }
+
+      modalContent.innerHTML = `
+        <div class="modal-header">
+          <h3>${data.title}</h3>
+          <p>${data.type}</p>
+        </div>
+        <div class="modal-body">
+          <h4>📌 Konteks Pembuatan</h4>
+          <p>${data.context}</p>
+          
+          <h4>🎯 Tujuan</h4>
+          <p>${data.purpose}</p>
+          
+          <h4>📈 Kelebihan & Kekurangan</h4>
+          <ul>
+            ${prosHtml}
+            ${consHtml}
+          </ul>
+          
+          <h4>📖 Kajian Teori</h4>
+          <p>${data.theory}</p>
+          
+          ${filePreviewHtml}
         </div>
       `;
     }
-
-    modalContent.innerHTML = `
-      <div class="modal-header">
-        <h3>${data.title}</h3>
-        <p>${data.type}</p>
-      </div>
-      <div class="modal-body">
-        <h4>📌 Konteks Pembuatan</h4>
-        <p>${data.context}</p>
-        
-        <h4>🎯 Tujuan</h4>
-        <p>${data.purpose}</p>
-        
-        <h4>📈 Kelebihan & Kekurangan</h4>
-        <ul>
-          ${prosHtml}
-          ${consHtml}
-        </ul>
-        
-        <h4>📖 Kajian Teori</h4>
-        <p>${data.theory}</p>
-        
-        ${filePreviewHtml}
-      </div>
-    `;
 
     modalOverlay.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -195,7 +217,7 @@ document.addEventListener('DOMContentLoaded', () => {
   modalTriggers.forEach(btn => {
     btn.addEventListener('click', (e) => {
       e.preventDefault();
-      openModal(btn.getAttribute('data-modal'));
+      openModal(btn.getAttribute('data-modal'), btn.getAttribute('data-view'));
     });
   });
 
