@@ -157,6 +157,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const filterBtns = document.querySelectorAll('.filter-btn');
   const portfolioCards = document.querySelectorAll('.portfolio-card');
 
+  const portfolioGridWrapper = document.getElementById('portfolioGridWrapper');
+  const portfolioGridInner = document.getElementById('portfolioGridInner');
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const isActive = btn.classList.contains('active');
@@ -164,15 +167,22 @@ document.addEventListener('DOMContentLoaded', () => {
       filterBtns.forEach(b => b.classList.remove('active'));
 
       if (isActive) {
-        // Toggle off (Collapse everything)
-        portfolioCards.forEach(card => {
-          card.style.display = 'none';
-        });
+        // Toggle off (Collapse everything with animation)
+        if (portfolioGridWrapper && portfolioGridInner) {
+          portfolioGridWrapper.style.gridTemplateRows = '0fr';
+          portfolioGridInner.style.opacity = '0';
+          portfolioGridInner.style.marginTop = '-20px';
+          // Kita tidak perlu display none pada cards, karena wrapper sudah hilang (tinggi 0).
+        } else {
+          // Fallback jika HTML wrapper tidak ada
+          portfolioCards.forEach(card => card.style.display = 'none');
+        }
       } else {
-        // Toggle on (Expand)
+        // Toggle on (Expand with animation)
         btn.classList.add('active');
         const filter = btn.getAttribute('data-filter');
 
+        // Pertama siapkan card mana yang tampil sebelum expand
         portfolioCards.forEach(card => {
           const category = card.getAttribute('data-category');
           if (filter === 'all' || category === filter) {
@@ -182,6 +192,13 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.display = 'none';
           }
         });
+
+        // Buka wrapper dengan animasi
+        if (portfolioGridWrapper && portfolioGridInner) {
+          portfolioGridWrapper.style.gridTemplateRows = '1fr';
+          portfolioGridInner.style.opacity = '1';
+          portfolioGridInner.style.marginTop = '0';
+        }
       }
     });
   });

@@ -313,8 +313,10 @@
           <button class="filter-btn" data-filter="asesmen">Asesmen</button>
           <button class="filter-btn" data-filter="lainnya">Lainnya</button>
         </div>
-        <div class="portfolio-grid" id="portfolioGrid">
-          <!-- Card 1: RPP -->
+        <div class="portfolio-grid-wrapper" id="portfolioGridWrapper" style="display: grid; grid-template-rows: 1fr; transition: grid-template-rows 0.6s cubic-bezier(0.4, 0, 0.2, 1);">
+          <div class="portfolio-grid-inner" id="portfolioGridInner" style="min-height: 0; overflow: hidden; transition: opacity 0.5s ease, margin-top 0.5s ease; opacity: 1; margin-top: 0;">
+            <div class="portfolio-grid" id="portfolioGrid" style="padding-bottom: 20px;">
+              <!-- Card 1: RPP -->
           <div class="portfolio-card reveal" data-category="rpp">
             <div class="portfolio-card-img btn-modal" data-view="pdf" data-modal="modal-rpp1" tabindex="0" role="button" aria-label="Lihat RPP Siklus 1">
               <img src="assets/img/RPP_Siklus_1.png" alt="RPP Siklus 1 — Gambar Teknik Manufaktur" loading="lazy" />
@@ -493,8 +495,10 @@
               </button>
             </div>
           </div>
-        </div>
-      </div>
+            </div> <!-- End portfolioGrid -->
+          </div> <!-- End portfolioGridInner -->
+        </div> <!-- End portfolioGridWrapper -->
+      </div> <!-- End container -->
     </section>
 
     <!-- ============================================
