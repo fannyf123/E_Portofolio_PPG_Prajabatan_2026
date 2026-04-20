@@ -141,16 +141,16 @@ document.addEventListener('DOMContentLoaded', () => {
     if (viewMode === 'pdf' && canPreviewPdf) {
       // Tampilan HANYA PDF
       modalContent.innerHTML = `
-        <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center; border-bottom: none; padding-bottom: 0;">
-          <div>
-            <h3 style="margin-bottom: 4px;">${data.title}</h3>
+        <div class="modal-header" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; border-bottom: none; padding-bottom: 0; gap: 15px; padding-right: 30px;">
+          <div style="flex: 1; min-width: 250px;">
+            <h3 style="margin-bottom: 4px; font-size: 1.3rem;">${data.title}</h3>
             <p style="margin-bottom: 0;">Preview Dokumen</p>
           </div>
-          <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 8px 16px; background: var(--teal); color: white; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 0.9rem; transition: background 0.3s;">
+          <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 6px; padding: 10px 18px; background: #2EC4B6; color: #FFFFFF; border-radius: 8px; font-weight: 600; text-decoration: none; font-size: 0.9rem; box-shadow: 0 4px 12px rgba(46,196,182,0.3); z-index: 5;">
             Buka di Tab Baru ↗
           </a>
         </div>
-        <div class="modal-body" style="height: 75vh; padding-top: 16px;">
+        <div class="modal-body" style="height: 75vh; padding-top: 20px;">
           <iframe src="${fileUrl}#toolbar=0" style="width: 100%; height: 100%; border: 1px solid #DEE2E8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);" title="PDF Preview"></iframe>
         </div>
       `;
@@ -163,9 +163,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (canPreviewPdf) {
         filePreviewHtml = `
           <div class="pdf-preview" style="margin-top: 30px; border-top: 2px dashed #DEE2E8; padding-top: 20px;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 10px;">
               <h4 style="margin: 0;">📄 Preview Dokumen Full</h4>
-              <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="font-size: 0.85rem; color: var(--teal); font-weight: 600; text-decoration: none;">Buka di Tab Baru ↗</a>
+              <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 6px 14px; background: #EEF0F4; color: #2EC4B6; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.85rem;">
+                Buka di Tab Baru ↗
+              </a>
             </div>
             <iframe src="${fileUrl}#toolbar=0" style="width: 100%; height: 60vh; border: 1px solid #DEE2E8; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.06);" title="PDF Preview"></iframe>
           </div>
@@ -174,14 +176,14 @@ document.addEventListener('DOMContentLoaded', () => {
         filePreviewHtml = `
           <div class="modal-files" style="margin-top: 20px;">
             <h4>📎 File Artefak</h4>
-            <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background: #FF6B6B; color: white; border-radius: 8px; font-weight: 600; text-decoration: none;">Buka File</a>
+            <a href="${fileUrl}" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 10px 20px; background: #FF6B6B; color: #FFFFFF; border-radius: 8px; font-weight: 600; text-decoration: none;">Buka File</a>
           </div>
         `;
       }
 
       modalContent.innerHTML = `
         <div class="modal-header">
-          <h3>${data.title}</h3>
+          <h3 style="font-size: 1.5rem;">${data.title}</h3>
           <p>${data.type}</p>
         </div>
         <div class="modal-body">
