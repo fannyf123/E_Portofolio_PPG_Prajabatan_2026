@@ -220,11 +220,14 @@
 .hero-image-wrapper::before {
   content: '';
   position: absolute;
-  inset: -8px;
+  inset: -4px;
   border-radius: 50%;
-  background: var(--gradient-hero);
-  opacity: 0.3;
-  animation: spin 20s linear infinite;
+  background: conic-gradient(#1E3A5F, #F97316, #1E3A5F, #F97316, #1E3A5F);
+  animation: spinGradient 4s linear infinite;
+  z-index: 0;
+}
+@keyframes spinGradient {
+  to { transform: rotate(360deg); }
 }
 
 @keyframes spin {
@@ -236,7 +239,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 6px solid var(--white);
+  border: 4px solid white !important;
   box-shadow: var(--shadow-lg);
   position: relative;
   z-index: 1;

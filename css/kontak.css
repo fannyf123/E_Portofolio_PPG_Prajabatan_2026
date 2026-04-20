@@ -196,3 +196,80 @@
   transform: translateY(-2px);
 }
 
+
+/* ============================================
+   FLOATING LABELS FOR CONTACT FORM
+   ============================================ */
+.form-group.floating {
+  position: relative;
+  margin-bottom: 28px;
+}
+.form-group.floating input,
+.form-group.floating textarea {
+  width: 100%;
+  padding: 20px 16px 8px;
+  border: 2px solid var(--gray-200);
+  border-radius: 12px;
+  font-size: 0.95rem;
+  background: var(--white);
+  color: var(--gray-700);
+  transition: border-color 0.3s ease;
+  outline: none;
+  resize: vertical;
+  font-family: var(--font-body);
+}
+.form-group.floating label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  font-size: 0.95rem;
+  color: var(--gray-400);
+  pointer-events: none;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+.form-group.floating textarea + label {
+  top: 20px;
+  transform: none;
+}
+.form-group.floating input:focus,
+.form-group.floating textarea:focus {
+  border-color: #1E3A5F;
+}
+.form-group.floating input:focus + label,
+.form-group.floating input:not(:placeholder-shown) + label,
+.form-group.floating textarea:focus + label,
+.form-group.floating textarea:not(:placeholder-shown) + label {
+  top: 8px;
+  transform: none;
+  font-size: 0.75rem;
+  color: #1E3A5F;
+  font-weight: 600;
+}
+.form-success {
+  text-align: center;
+  padding: 20px;
+  animation: successFadeIn 0.5s ease;
+}
+.success-icon { font-size: 2.5rem; margin-bottom: 8px; }
+@keyframes successFadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+[data-theme="dark"] .form-group.floating input,
+[data-theme="dark"] .form-group.floating textarea {
+  background: var(--gray-100);
+  border-color: var(--gray-200);
+  color: var(--gray-700);
+}
+[data-theme="dark"] .form-group.floating input:focus,
+[data-theme="dark"] .form-group.floating textarea:focus {
+  border-color: #F97316;
+}
+[data-theme="dark"] .form-group.floating input:focus + label,
+[data-theme="dark"] .form-group.floating input:not(:placeholder-shown) + label,
+[data-theme="dark"] .form-group.floating textarea:focus + label,
+[data-theme="dark"] .form-group.floating textarea:not(:placeholder-shown) + label {
+  color: #F97316;
+}

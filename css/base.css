@@ -4,7 +4,7 @@
    ============================================ */
 
 /* ---------- Google Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 
 /* ---------- CSS Custom Properties ---------- */
 :root {
@@ -72,6 +72,19 @@
   /* Transitions */
   --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
   --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* New Brand Colors */
+  --primary: #1E3A5F;
+  --primary-light: #2A4E7F;
+  --primary-dark: #162C48;
+  --accent: #F97316;
+  --accent-light: #FB923C;
+  --accent-dark: #EA6A0A;
+  --bg-light: #F8FAFC;
+  --bg-dark: #0F172A;
+  --gradient-primary: linear-gradient(135deg, #1E3A5F, #2A4E7F);
+  --gradient-accent: linear-gradient(135deg, #F97316, #FB923C);
+  --gradient-primary-accent: linear-gradient(135deg, #1E3A5F, #F97316);
 }
 
 /* ---------- Reset & Base ---------- */

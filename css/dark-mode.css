@@ -186,3 +186,7 @@ body {
     background: var(--gray-50);
   }
 }
+
+[data-theme="dark"] {
+  --bg-dark: #0F172A;
+}

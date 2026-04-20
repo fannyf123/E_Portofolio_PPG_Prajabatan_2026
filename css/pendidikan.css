@@ -106,3 +106,46 @@
   line-height: 1.6;
 }
 
+
+/* Education Card Header */
+.timeline-card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.edu-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  flex-shrink: 0;
+  color: white;
+}
+.edu-logo-ppg { background: linear-gradient(135deg, #1E3A5F, #2A4E7F); }
+.edu-logo-s1 { background: linear-gradient(135deg, #F97316, #FB923C); }
+.edu-logo-smk { background: linear-gradient(135deg, #2ec4b6, #56ccf2); }
+.edu-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.badge-ongoing {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  background: rgba(249,115,22,0.1);
+  color: #F97316;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(249,115,22,0.3);
+}
+.ppg-era .timeline-dot { border-color: #1E3A5F; background: #1E3A5F; }
+.s1-era .timeline-dot { border-color: #F97316; }
+.smk-era .timeline-dot { border-color: #2ec4b6; }

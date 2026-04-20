@@ -125,3 +125,36 @@
   .nav-links a { font-size: 1.1rem; }
 }
 
+
+/* Scroll Progress Bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, #1E3A5F, #F97316);
+  z-index: 1001;
+  transition: width 0.1s linear;
+}
+
+/* CV Download Button */
+.btn-cv {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  background: linear-gradient(135deg, #1E3A5F, #2A4E7F);
+  color: white !important;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+.btn-cv:hover {
+  background: linear-gradient(135deg, #F97316, #FB923C);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(249,115,22,0.3);
+}

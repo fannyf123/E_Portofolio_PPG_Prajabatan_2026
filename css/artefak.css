@@ -490,3 +490,37 @@
     justify-content: center;
   }
 }
+
+/* Portfolio Siklus Tabs */
+.portfolio-tabs {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.tab-btn {
+  padding: 8px 20px;
+  border-radius: 50px;
+  border: 2px solid #1E3A5F;
+  background: transparent;
+  color: #1E3A5F;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-body);
+}
+.tab-btn.active, .tab-btn:hover {
+  background: #1E3A5F;
+  color: white;
+}
+[data-theme="dark"] .tab-btn {
+  border-color: #F97316;
+  color: #F97316;
+}
+[data-theme="dark"] .tab-btn.active,
+[data-theme="dark"] .tab-btn:hover {
+  background: #F97316;
+  color: white;
+}
