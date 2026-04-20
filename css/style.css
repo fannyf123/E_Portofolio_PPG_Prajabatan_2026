@@ -930,16 +930,16 @@ ol {
 }
 
 .hero-float.top-right {
-  top: 20px;
-  right: -20px;
+  top: 15%;
+  left: 80%;
 }
 .hero-float.bottom-left {
-  bottom: 40px;
-  left: -30px;
+  bottom: 15%;
+  right: 75%;
 }
 .hero-float.top-left {
-  top: 60px;
-  left: -20px;
+  top: 45%;
+  right: 85%;
 }
 
 .hero-float .float-icon {
