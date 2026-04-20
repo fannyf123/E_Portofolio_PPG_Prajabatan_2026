@@ -360,10 +360,40 @@
 /* Responsive Modal & Penilaian */
 @media (max-width: 768px) {
   .modal-content {
-    padding: 30px 20px;
+    padding: 25px 15px;
   }
   .penilaian-grid {
     grid-template-columns: 1fr;
+  }
+  .modal-close {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+  .modal-header {
+    padding-right: 25px !important;
+  }
+  .modal-header h3 {
+    font-size: 1.25rem !important;
+  }
+  /* PDF Preview adjustments */
+  .modal-body iframe {
+    height: 60vh !important;
+  }
+  .pdf-preview iframe {
+    height: 50vh !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-header a {
+    width: 100%;
+    justify-content: center;
+  }
+  .modal-body iframe {
+    height: 55vh !important;
   }
 }
 
