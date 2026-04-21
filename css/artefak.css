@@ -1,153 +1,317 @@
+/* ============================================
    PORTFOLIO / PROJECTS SECTION
    ============================================ */
 .portfolio {
-  background: var(--off-white);
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.88), rgba(246,248,251,0.96)),
+    var(--off-white);
+}
+
+.portfolio-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 18px;
+  padding: 6px;
+  border-radius: 16px;
+  background: rgba(30, 58, 95, 0.08);
+  border: 1px solid rgba(30, 58, 95, 0.1);
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  min-height: 42px;
+  padding: 10px 22px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: #1E3A5F;
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+  background: #1E3A5F;
+  color: #fff;
+  box-shadow: 0 10px 24px rgba(30, 58, 95, 0.2);
 }
 
 .portfolio-filter {
   display: flex;
   justify-content: center;
-  gap: 12px;
-  margin-bottom: 48px;
+  gap: 10px;
+  margin-bottom: 34px;
   flex-wrap: wrap;
 }
 
 .filter-btn {
-  padding: 10px 24px;
-  border: 2px solid var(--gray-200);
-  border-radius: 50px;
-  background: var(--white);
-  font-family: var(--font-body);
-  font-size: 0.88rem;
-  font-weight: 500;
+  min-height: 40px;
+  padding: 9px 18px;
+  border: 1px solid rgba(30, 58, 95, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04);
   color: var(--gray-500);
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  font-weight: 650;
   cursor: pointer;
-  transition: all 0.3s var(--ease-smooth);
+  transition: all 0.25s var(--ease-smooth);
 }
 
 .filter-btn:hover,
 .filter-btn.active {
-  border-color: var(--coral);
-  color: var(--coral);
-  background: rgba(255,107,107,0.06);
+  border-color: rgba(249, 115, 22, 0.45);
+  background: rgba(249, 115, 22, 0.1);
+  color: #C05621;
+  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.12);
 }
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 290px), 1fr));
+  gap: 26px;
+  align-items: stretch;
 }
 
 .portfolio-card {
-  background: var(--white);
-  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
   overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid var(--gray-100);
-  transition: all 0.4s var(--ease-smooth);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(30, 58, 95, 0.09);
+  box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+  transition: transform 0.35s var(--ease-smooth), box-shadow 0.35s ease, border-color 0.35s ease;
+}
+
+.portfolio-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 4px;
+  background: linear-gradient(90deg, #1E3A5F, #F97316, #2EC4B6);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 3;
 }
 
 .portfolio-card:hover {
-  transform: translateY(-8px);
-  box-shadow: var(--shadow-xl);
+  transform: translateY(-6px);
+  border-color: rgba(249, 115, 22, 0.28);
+  box-shadow: 0 28px 70px rgba(15, 23, 42, 0.14);
+}
+
+.portfolio-card:hover::before {
+  opacity: 1;
 }
 
 .portfolio-card-img {
-  height: 200px;
-  overflow: hidden;
   position: relative;
+  height: 230px;
+  overflow: hidden;
   cursor: pointer;
+  background:
+    linear-gradient(135deg, rgba(30,58,95,0.08), rgba(46,196,182,0.08)),
+    #F8FAFC;
 }
 
-/* Hover overlay on card image */
-.card-img-overlay {
+.portfolio-card-img::after {
+  content: "";
   position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-
-.card-img-overlay span {
-  color: #fff;
-  font-size: 0.95rem;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.18);
-  border: 1.5px solid rgba(255,255,255,0.6);
-  padding: 8px 20px;
-  border-radius: 50px;
-  backdrop-filter: blur(4px);
-  letter-spacing: 0.02em;
-}
-
-.portfolio-card:hover .card-img-overlay {
-  opacity: 1;
+  inset: auto 18px 0;
+  height: 1px;
+  background: rgba(30, 58, 95, 0.08);
+  z-index: 2;
 }
 
 .portfolio-card-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s var(--ease-smooth);
+  object-position: top center;
+  filter: saturate(0.96) contrast(1.02);
+  transition: transform 0.55s var(--ease-smooth), filter 0.35s ease;
 }
 
 .portfolio-card:hover .portfolio-card-img img {
-  transform: scale(1.08);
+  transform: scale(1.045);
+  filter: saturate(1.04) contrast(1.04);
+}
+
+.card-img-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background: linear-gradient(180deg, rgba(30, 58, 95, 0.08), rgba(30, 58, 95, 0.68));
+  transition: opacity 0.35s ease;
+  z-index: 1;
+}
+
+.portfolio-card:hover .card-img-overlay,
+.portfolio-card-img:focus-visible .card-img-overlay {
+  opacity: 1;
+}
+
+.card-img-overlay span {
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 750;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255,255,255,0.45);
+  padding: 10px 18px;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .portfolio-card-img .card-tag {
   position: absolute;
-  top: 12px;
-  right: 12px;
-  padding: 5px 12px;
-  border-radius: 8px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: var(--white);
+  top: 14px;
+  right: 14px;
   z-index: 2;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
 }
 
-.card-tag.rpp     { background: var(--coral); }
-.card-tag.modul   { background: var(--teal); }
-.card-tag.media   { background: var(--lavender); }
-.card-tag.asesmen { background: var(--amber); }
-.card-tag.sky     { background: var(--sky); }
-.card-tag.coral   { background: linear-gradient(135deg, #ff6b6b, #ff8e8e); }
+.card-tag.rpp     { background: linear-gradient(135deg, #FF6B6B, #F97316); }
+.card-tag.modul   { background: linear-gradient(135deg, #2EC4B6, #1B998B); }
+.card-tag.media   { background: linear-gradient(135deg, #9B72CF, #6D5BD0); }
+.card-tag.asesmen { background: linear-gradient(135deg, #FFB347, #F97316); }
+.card-tag.sky     { background: linear-gradient(135deg, #56CCF2, #2D9CDB); }
+.card-tag.coral   { background: linear-gradient(135deg, #1E3A5F, #F97316); }
 
 .portfolio-card-body {
-  padding: 24px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 22px;
 }
 
 .portfolio-card-body h3 {
-  font-size: 1.1rem;
-  margin-bottom: 8px;
+  color: #1E3A5F;
+  font-size: 1.06rem;
+  line-height: 1.35;
+  margin-bottom: 10px;
 }
 
 .portfolio-card-body p {
-  font-size: 0.88rem;
   color: var(--gray-500);
-  line-height: 1.6;
-  margin-bottom: 16px;
+  font-size: 0.9rem;
+  line-height: 1.68;
+  margin-bottom: 18px;
 }
 
 .portfolio-card-body .card-link {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--coral);
-  transition: gap 0.3s var(--ease-smooth);
+  justify-content: center;
+  gap: 8px;
+  width: fit-content;
+  margin-top: auto;
+  min-height: 40px;
+  padding: 9px 16px;
+  border: 0;
+  border-radius: 12px;
+  background: rgba(30, 58, 95, 0.08);
+  color: #1E3A5F;
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  font-weight: 750;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
 }
 
 .portfolio-card-body .card-link:hover {
-  gap: 10px;
+  background: #1E3A5F;
+  color: #fff;
+  transform: translateY(-1px);
 }
 
-/* ============================================
+[data-theme="dark"] .portfolio {
+  background:
+    linear-gradient(180deg, rgba(20,22,29,0.9), rgba(18,20,27,0.96)),
+    var(--gray-900);
+}
+
+[data-theme="dark"] .portfolio-tabs {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+[data-theme="dark"] .tab-btn {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+[data-theme="dark"] .tab-btn.active,
+[data-theme="dark"] .tab-btn:hover {
+  background: #F97316;
+  color: #fff;
+  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.2);
+}
+
+[data-theme="dark"] .filter-btn {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.66);
+}
+
+[data-theme="dark"] .filter-btn:hover,
+[data-theme="dark"] .filter-btn.active {
+  background: rgba(249, 115, 22, 0.12);
+  border-color: rgba(249, 115, 22, 0.42);
+  color: #FB923C;
+}
+
+[data-theme="dark"] .portfolio-card {
+  background: rgba(255, 255, 255, 0.055);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.24);
+}
+
+[data-theme="dark"] .portfolio-card:hover {
+  border-color: rgba(249, 115, 22, 0.32);
+}
+
+[data-theme="dark"] .portfolio-card-img {
+  background:
+    linear-gradient(135deg, rgba(249,115,22,0.08), rgba(46,196,182,0.07)),
+    rgba(255,255,255,0.04);
+}
+
+[data-theme="dark"] .portfolio-card-body h3 {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+[data-theme="dark"] .portfolio-card-body p {
+  color: rgba(255, 255, 255, 0.64);
+}
+
+[data-theme="dark"] .portfolio-card-body .card-link {
+  background: rgba(249, 115, 22, 0.12);
+  color: #FB923C;
+}
+
+[data-theme="dark"] .portfolio-card-body .card-link:hover {
+  background: #F97316;
+  color: #fff;
+}
 
 /* ============================================
    MODAL ANALISIS ARTEFAK
@@ -490,38 +654,4 @@
   .modal-file-btn {
     justify-content: center;
   }
-}
-
-/* Portfolio Siklus Tabs */
-.portfolio-tabs {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-  margin-bottom: 16px;
-  flex-wrap: wrap;
-}
-.tab-btn {
-  padding: 8px 20px;
-  border-radius: 50px;
-  border: 2px solid #1E3A5F;
-  background: transparent;
-  color: #1E3A5F;
-  font-weight: 600;
-  font-size: 0.85rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: var(--font-body);
-}
-.tab-btn.active, .tab-btn:hover {
-  background: #1E3A5F;
-  color: white;
-}
-[data-theme="dark"] .tab-btn {
-  border-color: #F97316;
-  color: #F97316;
-}
-[data-theme="dark"] .tab-btn.active,
-[data-theme="dark"] .tab-btn:hover {
-  background: #F97316;
-  color: white;
 }
