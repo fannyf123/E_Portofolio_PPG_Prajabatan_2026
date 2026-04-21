@@ -791,6 +791,56 @@
     </section>
 
     <!-- ============================================
+       GALLERY SECTION
+       ============================================ -->
+    <section class="gallery section" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-badge amber">📸 Galeri</div>
+          <h2 class="section-title">Galeri Kegiatan</h2>
+          <p class="section-subtitle">Dokumentasi kegiatan PPL, pembelajaran, dan pengembangan profesional</p>
+        </div>
+        <div class="gallery-grid reveal">
+          <div class="gallery-item" data-src="assets/img/hero-bg.png" data-caption="Kegiatan Pembelajaran di Kelas">
+            <img src="assets/img/hero-bg.png" alt="Kegiatan 1" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+          <div class="gallery-item" data-src="assets/img/profile.jpeg" data-caption="Foto Profil Kegiatan PPG">
+            <img src="assets/img/profile.jpeg" alt="Kegiatan 2" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+          <div class="gallery-item" data-src="assets/img/RPP_Siklus_1.png" data-caption="Persiapan RPP Siklus 1">
+            <img src="assets/img/RPP_Siklus_1.png" alt="Kegiatan 3" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+          <div class="gallery-item" data-src="assets/img/Asesmen_Siklus_1.png" data-caption="Penilaian Asesmen Siklus 1">
+            <img src="assets/img/Asesmen_Siklus_1.png" alt="Kegiatan 4" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+          <div class="gallery-item" data-src="assets/img/Media_Siklus1_PPT.png" data-caption="Media Pembelajaran PPT">
+            <img src="assets/img/Media_Siklus1_PPT.png" alt="Kegiatan 5" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+          <div class="gallery-item" data-src="assets/img/Tool Post Rev.png" data-caption="Gambar Teknik Tool Post">
+            <img src="assets/img/Tool Post Rev.png" alt="Kegiatan 6" loading="lazy" />
+            <div class="gallery-overlay"><span>🔍</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightboxClose">✕</button>
+      <button class="lightbox-prev" id="lightboxPrev">‹</button>
+      <button class="lightbox-next" id="lightboxNext">›</button>
+      <div class="lightbox-content">
+        <img id="lightboxImg" src="" alt="" />
+        <p class="lightbox-caption" id="lightboxCaption"></p>
+      </div>
+    </div>
+
+    <!-- ============================================
        SKILLS SECTION
        ============================================ -->
     <section class="skills section" id="skills">
@@ -1050,56 +1100,6 @@
     </section>
 
     <!-- ============================================
-       GALLERY SECTION
-       ============================================ -->
-    <section class="gallery section" id="gallery">
-      <div class="container">
-        <div class="section-header reveal">
-          <div class="section-badge amber">📸 Galeri</div>
-          <h2 class="section-title">Galeri Kegiatan</h2>
-          <p class="section-subtitle">Dokumentasi kegiatan PPL, pembelajaran, dan pengembangan profesional</p>
-        </div>
-        <div class="gallery-grid reveal">
-          <div class="gallery-item" data-src="assets/img/hero-bg.png" data-caption="Kegiatan Pembelajaran di Kelas">
-            <img src="assets/img/hero-bg.png" alt="Kegiatan 1" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-          <div class="gallery-item" data-src="assets/img/profile.jpeg" data-caption="Foto Profil Kegiatan PPG">
-            <img src="assets/img/profile.jpeg" alt="Kegiatan 2" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-          <div class="gallery-item" data-src="assets/img/RPP_Siklus_1.png" data-caption="Persiapan RPP Siklus 1">
-            <img src="assets/img/RPP_Siklus_1.png" alt="Kegiatan 3" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-          <div class="gallery-item" data-src="assets/img/Asesmen_Siklus_1.png" data-caption="Penilaian Asesmen Siklus 1">
-            <img src="assets/img/Asesmen_Siklus_1.png" alt="Kegiatan 4" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-          <div class="gallery-item" data-src="assets/img/Media_Siklus1_PPT.png" data-caption="Media Pembelajaran PPT">
-            <img src="assets/img/Media_Siklus1_PPT.png" alt="Kegiatan 5" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-          <div class="gallery-item" data-src="assets/img/Tool Post Rev.png" data-caption="Gambar Teknik Tool Post">
-            <img src="assets/img/Tool Post Rev.png" alt="Kegiatan 6" loading="lazy" />
-            <div class="gallery-overlay"><span>🔍</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox">
-      <button class="lightbox-close" id="lightboxClose">✕</button>
-      <button class="lightbox-prev" id="lightboxPrev">‹</button>
-      <button class="lightbox-next" id="lightboxNext">›</button>
-      <div class="lightbox-content">
-        <img id="lightboxImg" src="" alt="" />
-        <p class="lightbox-caption" id="lightboxCaption"></p>
-      </div>
-    </div>
-
-    <!-- ============================================
        FOOTER
        ============================================ -->
     <footer class="footer">
@@ -1124,6 +1124,7 @@
               <li><a href="#portfolio">Artefak</a></li>
               <li><a href="#penilaian">Penilaian</a></li>
               <li><a href="#model-guru">Model Guru</a></li>
+              <li><a href="#gallery">Galeri</a></li>
               <li><a href="#skills">Keahlian</a></li>
               <li><a href="#certificates">Sertifikat</a></li>
               <li><a href="#contact">Kontak</a></li>
