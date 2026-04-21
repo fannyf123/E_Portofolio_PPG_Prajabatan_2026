@@ -179,6 +179,31 @@ document.addEventListener('DOMContentLoaded', () => {
   const portfolioGridWrapper = document.getElementById('portfolioGridWrapper');
   const portfolioGridInner = document.getElementById('portfolioGridInner');
 
+  function getActiveSiklus() {
+    const activeTab = document.querySelector('.tab-btn.active');
+    return activeTab ? activeTab.getAttribute('data-tab') : 'siklus1';
+  }
+
+  function getActiveFilter() {
+    const activeFilter = document.querySelector('.filter-btn.active');
+    return activeFilter ? activeFilter.getAttribute('data-filter') : 'all';
+  }
+
+  function applyFilters(siklus, filter) {
+    portfolioCards.forEach(card => {
+      const cardSiklus = card.getAttribute('data-siklus') || 'siklus1';
+      const cardCategory = card.getAttribute('data-category');
+      const matchesSiklus = (cardSiklus === siklus);
+      const matchesFilter = (filter === 'all' || cardCategory === filter);
+      if (matchesSiklus && matchesFilter) {
+        card.style.display = '';
+        card.style.animation = 'fadeIn 0.5s ease forwards';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
   filterBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const isActive = btn.classList.contains('active');
@@ -191,9 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
           portfolioGridWrapper.style.gridTemplateRows = '0fr';
           portfolioGridInner.style.opacity = '0';
           portfolioGridInner.style.marginTop = '-20px';
-          // Kita tidak perlu display none pada cards, karena wrapper sudah hilang (tinggi 0).
         } else {
-          // Fallback jika HTML wrapper tidak ada
           portfolioCards.forEach(card => card.style.display = 'none');
         }
       } else {
@@ -201,16 +224,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.classList.add('active');
         const filter = btn.getAttribute('data-filter');
 
-        // Pertama siapkan card mana yang tampil sebelum expand
-        portfolioCards.forEach(card => {
-          const category = card.getAttribute('data-category');
-          if (filter === 'all' || category === filter) {
-            card.style.display = '';
-            card.style.animation = 'fadeIn 0.5s ease forwards';
-          } else {
-            card.style.display = 'none';
-          }
-        });
+        applyFilters(getActiveSiklus(), filter);
 
         // Buka wrapper dengan animasi
         if (portfolioGridWrapper && portfolioGridInner) {
@@ -309,10 +323,7 @@ document.addEventListener('DOMContentLoaded', () => {
       tabBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const tab = btn.getAttribute('data-tab');
-      portfolioCards.forEach(card => {
-        const siklus = card.getAttribute('data-siklus') || 'siklus1';
-        card.style.display = (siklus === tab) ? '' : 'none';
-      });
+      applyFilters(tab, getActiveFilter());
     });
   });
 

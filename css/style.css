@@ -3120,3 +3120,32 @@ body {
 [data-theme="dark"] .profil-quote cite {
   color: #F97316;
 }
+
+/* ============================================
+   COMING SOON CARD STYLE
+   ============================================ */
+.portfolio-card[data-siklus="siklus2"],
+.portfolio-card[data-siklus="siklus3"] {
+  opacity: 0.7;
+  position: relative;
+}
+.portfolio-card[data-siklus="siklus2"]::after,
+.portfolio-card[data-siklus="siklus3"]::after {
+  content: '🚧 Segera Hadir';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: rgba(249,115,22,0.15);
+  color: #F97316;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 50px;
+  border: 1px solid rgba(249,115,22,0.3);
+  z-index: 3;
+}
+.portfolio-card[data-siklus="siklus2"]:hover,
+.portfolio-card[data-siklus="siklus3"]:hover {
+  opacity: 1;
+  transform: translateY(-4px);
+}
