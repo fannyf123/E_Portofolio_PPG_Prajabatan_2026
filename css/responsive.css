@@ -12,8 +12,9 @@
 
 html, body {
   width: 100%;
-  max-width: 100vw;
+  max-width: 100%; /* Use 100% instead of 100vw to avoid scrollbar width issues */
   overflow-x: hidden !important; /* Force prevent horizontal scroll/cropping */
+  position: relative;
 }
 
 /* Adaptive Typography (all screens) */
@@ -21,6 +22,12 @@ h1, .hero-name        { font-size: clamp(1.8rem, 5vw, 3rem); }
 h2, .section-title     { font-size: clamp(1.4rem, 4vw, 2rem); }
 h3                     { font-size: clamp(1.1rem, 3vw, 1.5rem); }
 body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
+
+/* Base Container Override */
+.container {
+  width: 100%;
+  max-width: 100%;
+}
 
 /* ============================================
    DESKTOP (min-width: 1024px)
@@ -151,6 +158,17 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
     border-bottom: 1px solid var(--gray-100, #eee);
     min-height: 44px;
   }
+  
+  /* --- Prevent Horizontal Scroll from Animations --- */
+  .reveal-right, 
+  .reveal-left {
+    transform: translateY(40px); /* Override X translation to Y to prevent width overflow */
+  }
+  .reveal-right.visible, 
+  .reveal-left.visible {
+    transform: translateY(0);
+  }
+
   .nav-links li:last-child a {
     border-bottom: none;
   }
@@ -286,8 +304,10 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
 @media (max-width: 640px) {
   /* --- HERO SECTION: stack vertical --- */
   .hero {
-    padding-top: 90px; /* Account for fixed navbar */
-    min-height: calc(100vh - 90px);
+    padding-top: 120px !important; /* Larger padding to clear navbar */
+    align-items: flex-start !important; /* Stop vertical centering so it doesn't push up */
+    min-height: auto !important;
+    padding-bottom: 60px;
   }
   .hero .container {
     grid-template-columns: 1fr;
