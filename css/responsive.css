@@ -61,10 +61,23 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
   .contact-grid {
     grid-template-columns: 1fr;
   }
+  .about-image-card img {
+    height: 280px; /* Reduce height on mobile to prevent massive scroll */
+  }
   .about-stats {
     position: static;
     margin-top: 20px;
     justify-content: center;
+    flex-wrap: wrap; /* Ensure stats wrap and don't overflow horizontally */
+    gap: 12px;
+  }
+  .about-stat {
+    flex: 1 1 calc(33.333% - 12px);
+    min-width: 80px;
+    padding: 12px;
+  }
+  .about-stat .number {
+    font-size: 1.4rem;
   }
   .philosophy-pillars {
     grid-template-columns: 1fr 1fr;
@@ -97,6 +110,11 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
    Navbar, Timeline, Contact, Footer
    ============================================ */
 @media (max-width: 768px) {
+  /* Hide scroll indicator on mobile to prevent overlapping with social icons */
+  .scroll-indicator {
+    display: none !important;
+  }
+
   .section {
     padding: 60px 0;
   }
