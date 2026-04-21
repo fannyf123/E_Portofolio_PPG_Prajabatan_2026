@@ -16,8 +16,8 @@
   margin: 0 auto 18px;
   padding: 6px;
   border-radius: 16px;
-  background: rgba(30, 58, 95, 0.08);
-  border: 1px solid rgba(30, 58, 95, 0.1);
+  background: rgba(15, 94, 168, 0.08);
+  border: 1px solid rgba(15, 94, 168, 0.1);
   flex-wrap: wrap;
 }
 
@@ -27,7 +27,7 @@
   border: 0;
   border-radius: 12px;
   background: transparent;
-  color: #1E3A5F;
+  color: #0F5EA8;
   font-family: var(--font-body);
   font-size: 0.88rem;
   font-weight: 700;
@@ -37,9 +37,9 @@
 
 .tab-btn.active,
 .tab-btn:hover {
-  background: #1E3A5F;
+  background: #0F5EA8;
   color: #fff;
-  box-shadow: 0 10px 24px rgba(30, 58, 95, 0.2);
+  box-shadow: 0 10px 24px rgba(15, 94, 168, 0.2);
 }
 
 .portfolio-filter {
@@ -53,7 +53,7 @@
 .filter-btn {
   min-height: 40px;
   padding: 9px 18px;
-  border: 1px solid rgba(30, 58, 95, 0.12);
+  border: 1px solid rgba(15, 94, 168, 0.12);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.76);
   box-shadow: 0 8px 22px rgba(15, 23, 42, 0.04);
@@ -67,10 +67,10 @@
 
 .filter-btn:hover,
 .filter-btn.active {
-  border-color: rgba(249, 115, 22, 0.45);
-  background: rgba(249, 115, 22, 0.1);
+  border-color: rgba(57, 189, 235, 0.45);
+  background: rgba(57, 189, 235, 0.1);
   color: #C05621;
-  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.12);
+  box-shadow: 0 12px 28px rgba(57, 189, 235, 0.12);
 }
 
 .portfolio-grid {
@@ -88,7 +88,7 @@
   overflow: hidden;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(30, 58, 95, 0.09);
+  border: 1px solid rgba(15, 94, 168, 0.09);
   box-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
   transition: transform 0.35s var(--ease-smooth), box-shadow 0.35s ease, border-color 0.35s ease;
 }
@@ -98,7 +98,7 @@
   position: absolute;
   inset: 0 0 auto 0;
   height: 4px;
-  background: linear-gradient(90deg, #1E3A5F, #F97316, #2EC4B6);
+  background: linear-gradient(90deg, #0F5EA8, #39BDEB, #2EC4B6);
   opacity: 0;
   transition: opacity 0.35s ease;
   z-index: 3;
@@ -106,7 +106,7 @@
 
 .portfolio-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(249, 115, 22, 0.28);
+  border-color: rgba(57, 189, 235, 0.28);
   box-shadow: 0 28px 70px rgba(15, 23, 42, 0.14);
 }
 
@@ -120,7 +120,7 @@
   overflow: hidden;
   cursor: pointer;
   background:
-    linear-gradient(135deg, rgba(30,58,95,0.08), rgba(46,196,182,0.08)),
+    linear-gradient(135deg, rgba(15, 94, 168,0.08), rgba(46,196,182,0.08)),
     #F8FAFC;
 }
 
@@ -129,7 +129,7 @@
   position: absolute;
   inset: auto 18px 0;
   height: 1px;
-  background: rgba(30, 58, 95, 0.08);
+  background: rgba(15, 94, 168, 0.08);
   z-index: 2;
 }
 
@@ -154,7 +154,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  background: linear-gradient(180deg, rgba(30, 58, 95, 0.08), rgba(30, 58, 95, 0.68));
+  background: linear-gradient(180deg, rgba(15, 94, 168, 0.08), rgba(15, 94, 168, 0.68));
   transition: opacity 0.35s ease;
   z-index: 1;
 }
@@ -190,12 +190,12 @@
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.18);
 }
 
-.card-tag.rpp     { background: linear-gradient(135deg, #FF6B6B, #F97316); }
+.card-tag.rpp     { background: linear-gradient(135deg, #39BDEB, #39BDEB); }
 .card-tag.modul   { background: linear-gradient(135deg, #2EC4B6, #1B998B); }
 .card-tag.media   { background: linear-gradient(135deg, #9B72CF, #6D5BD0); }
-.card-tag.asesmen { background: linear-gradient(135deg, #FFB347, #F97316); }
+.card-tag.asesmen { background: linear-gradient(135deg, #F1D7A6, #39BDEB); }
 .card-tag.sky     { background: linear-gradient(135deg, #56CCF2, #2D9CDB); }
-.card-tag.coral   { background: linear-gradient(135deg, #1E3A5F, #F97316); }
+.card-tag.coral   { background: linear-gradient(135deg, #0F5EA8, #39BDEB); }
 
 .portfolio-card-body {
   display: flex;
@@ -205,7 +205,7 @@
 }
 
 .portfolio-card-body h3 {
-  color: #1E3A5F;
+  color: #0F5EA8;
   font-size: 1.06rem;
   line-height: 1.35;
   margin-bottom: 10px;
@@ -229,8 +229,8 @@
   padding: 9px 16px;
   border: 0;
   border-radius: 12px;
-  background: rgba(30, 58, 95, 0.08);
-  color: #1E3A5F;
+  background: rgba(15, 94, 168, 0.08);
+  color: #0F5EA8;
   font-family: var(--font-body);
   font-size: 0.86rem;
   font-weight: 750;
@@ -239,7 +239,7 @@
 }
 
 .portfolio-card-body .card-link:hover {
-  background: #1E3A5F;
+  background: #0F5EA8;
   color: #fff;
   transform: translateY(-1px);
 }
@@ -261,9 +261,9 @@
 
 [data-theme="dark"] .tab-btn.active,
 [data-theme="dark"] .tab-btn:hover {
-  background: #F97316;
+  background: #39BDEB;
   color: #fff;
-  box-shadow: 0 12px 28px rgba(249, 115, 22, 0.2);
+  box-shadow: 0 12px 28px rgba(57, 189, 235, 0.2);
 }
 
 [data-theme="dark"] .filter-btn {
@@ -274,9 +274,9 @@
 
 [data-theme="dark"] .filter-btn:hover,
 [data-theme="dark"] .filter-btn.active {
-  background: rgba(249, 115, 22, 0.12);
-  border-color: rgba(249, 115, 22, 0.42);
-  color: #FB923C;
+  background: rgba(57, 189, 235, 0.12);
+  border-color: rgba(57, 189, 235, 0.42);
+  color: #7DD3FC;
 }
 
 [data-theme="dark"] .portfolio-card {
@@ -286,12 +286,12 @@
 }
 
 [data-theme="dark"] .portfolio-card:hover {
-  border-color: rgba(249, 115, 22, 0.32);
+  border-color: rgba(57, 189, 235, 0.32);
 }
 
 [data-theme="dark"] .portfolio-card-img {
   background:
-    linear-gradient(135deg, rgba(249,115,22,0.08), rgba(46,196,182,0.07)),
+    linear-gradient(135deg, rgba(57, 189, 235,0.08), rgba(46,196,182,0.07)),
     rgba(255,255,255,0.04);
 }
 
@@ -304,12 +304,12 @@
 }
 
 [data-theme="dark"] .portfolio-card-body .card-link {
-  background: rgba(249, 115, 22, 0.12);
-  color: #FB923C;
+  background: rgba(57, 189, 235, 0.12);
+  color: #7DD3FC;
 }
 
 [data-theme="dark"] .portfolio-card-body .card-link:hover {
-  background: #F97316;
+  background: #39BDEB;
   color: #fff;
 }
 

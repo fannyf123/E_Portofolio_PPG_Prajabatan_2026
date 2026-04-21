@@ -26,8 +26,8 @@
 }
 .skills-tab-btn.active,
 .skills-tab-btn:hover {
-  background: #1E3A5F;
-  border-color: #1E3A5F;
+  background: #0F5EA8;
+  border-color: #0F5EA8;
   color: white;
 }
 .skills-panel {
@@ -53,8 +53,8 @@
 }
 .skill-item-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 12px 40px rgba(30,58,95,0.15);
-  border-color: #1E3A5F;
+  box-shadow: 0 12px 40px rgba(15, 94, 168,0.15);
+  border-color: #0F5EA8;
 }
 .skill-item-icon {
   font-size: 2.5rem;
@@ -76,12 +76,12 @@
   letter-spacing: 0.05em;
 }
 .skill-item-badge.mahir {
-  background: rgba(30,58,95,0.1);
-  color: #1E3A5F;
+  background: rgba(15, 94, 168,0.1);
+  color: #0F5EA8;
 }
 .skill-item-badge.menengah {
-  background: rgba(249,115,22,0.1);
-  color: #F97316;
+  background: rgba(57, 189, 235,0.1);
+  color: #39BDEB;
 }
 .skill-item-badge.dasar {
   background: rgba(46,196,182,0.1);
@@ -93,8 +93,8 @@
 }
 [data-theme="dark"] .skills-tab-btn.active,
 [data-theme="dark"] .skills-tab-btn:hover {
-  background: #F97316;
-  border-color: #F97316;
+  background: #39BDEB;
+  border-color: #39BDEB;
   color: white;
 }
 [data-theme="dark"] .skill-item-card {
@@ -102,8 +102,8 @@
   border-color: var(--gray-200);
 }
 [data-theme="dark"] .skill-item-badge.mahir {
-  background: rgba(249,115,22,0.1);
-  color: #F97316;
+  background: rgba(57, 189, 235,0.1);
+  color: #39BDEB;
 }
 @media (max-width: 1024px) {
   .skill-cards-grid { grid-template-columns: repeat(2, 1fr); }
@@ -153,7 +153,7 @@
   flex-shrink: 0;
 }
 
-.cert-card:nth-child(odd) .cert-icon  { background: rgba(255,107,107,0.12); }
+.cert-card:nth-child(odd) .cert-icon  { background: rgba(57, 189, 235,0.12); }
 .cert-card:nth-child(even) .cert-icon { background: rgba(46,196,182,0.12); }
 
 .cert-card h4 {

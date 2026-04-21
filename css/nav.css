@@ -114,7 +114,7 @@
   left: 0;
   width: 0%;
   height: 3px;
-  background: linear-gradient(90deg, #1E3A5F, #F97316);
+  background: linear-gradient(90deg, #0F5EA8, #39BDEB);
   z-index: 1001;
   transition: width 0.1s linear;
 }
@@ -125,7 +125,7 @@
   align-items: center;
   gap: 4px;
   padding: 6px 14px;
-  background: linear-gradient(135deg, #1E3A5F, #2A4E7F);
+  background: linear-gradient(135deg, #0F5EA8, #2FAFE6);
   color: white !important;
   border-radius: 8px;
   font-size: 0.8rem;
@@ -135,7 +135,7 @@
   white-space: nowrap;
 }
 .btn-cv:hover {
-  background: linear-gradient(135deg, #F97316, #FB923C);
+  background: linear-gradient(135deg, #39BDEB, #7DD3FC);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(249,115,22,0.3);
+  box-shadow: 0 4px 12px rgba(57, 189, 235,0.3);
 }

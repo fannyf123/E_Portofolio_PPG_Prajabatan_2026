@@ -17,7 +17,7 @@
   right: -10%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(255,107,107,0.15) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(57, 189, 235,0.15) 0%, transparent 70%);
   border-radius: 50%;
   animation: float 8s ease-in-out infinite;
 }
@@ -161,7 +161,7 @@
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 40px rgba(255,107,107,0.4);
+  box-shadow: 0 12px 40px rgba(57, 189, 235,0.4);
 }
 
 .btn-secondary {
@@ -222,7 +222,7 @@
   position: absolute;
   inset: -4px;
   border-radius: 50%;
-  background: conic-gradient(#1E3A5F, #F97316, #1E3A5F, #F97316, #1E3A5F);
+  background: conic-gradient(#0F5EA8, #39BDEB, #0F5EA8, #39BDEB, #0F5EA8);
   animation: spinGradient 4s linear infinite;
   z-index: 0;
 }
@@ -360,7 +360,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(255,107,107,0.1), rgba(46,196,182,0.1));
+  background: linear-gradient(135deg, rgba(57, 189, 235,0.1), rgba(46,196,182,0.1));
 }
 
 .about-stats {
@@ -428,10 +428,10 @@
   flex-shrink: 0;
 }
 
-.about-info-item .info-icon.coral   { background: rgba(255,107,107,0.12); }
+.about-info-item .info-icon.coral   { background: rgba(57, 189, 235,0.12); }
 .about-info-item .info-icon.teal    { background: rgba(46,196,182,0.12); }
 .about-info-item .info-icon.lavender{ background: rgba(155,114,207,0.12); }
-.about-info-item .info-icon.amber   { background: rgba(255,179,71,0.12); }
+.about-info-item .info-icon.amber   { background: rgba(241, 215, 166,0.12); }
 
 .about-info-item .info-text .info-label {
   font-size: 0.75rem;
@@ -494,10 +494,10 @@
 
 .life-step:hover .life-step-dot,
 .life-step.active .life-step-dot {
-  background: linear-gradient(135deg, #1E3A5F, #F97316);
+  background: linear-gradient(135deg, #0F5EA8, #39BDEB);
   border-color: transparent;
   transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(30, 58, 95, 0.25);
+  box-shadow: 0 4px 16px rgba(15, 94, 168, 0.25);
 }
 
 .life-step.active .life-step-dot {
@@ -505,8 +505,8 @@
 }
 
 @keyframes lifePulse {
-  0%, 100% { box-shadow: 0 4px 16px rgba(30, 58, 95, 0.25); }
-  50% { box-shadow: 0 4px 24px rgba(249, 115, 22, 0.45); }
+  0%, 100% { box-shadow: 0 4px 16px rgba(15, 94, 168, 0.25); }
+  50% { box-shadow: 0 4px 24px rgba(57, 189, 235, 0.45); }
 }
 
 .life-step-label {
@@ -526,11 +526,11 @@
 }
 
 .life-step.active .life-step-label {
-  color: #1E3A5F;
+  color: #0F5EA8;
 }
 
 .life-step.active .life-step-label span {
-  color: #F97316;
+  color: #39BDEB;
   font-weight: 600;
 }
 
@@ -550,11 +550,11 @@
 
 [data-theme="dark"] .life-step:hover .life-step-dot,
 [data-theme="dark"] .life-step.active .life-step-dot {
-  background: linear-gradient(135deg, #2A4E7F, #F97316);
+  background: linear-gradient(135deg, #2FAFE6, #39BDEB);
 }
 
 [data-theme="dark"] .life-step.active .life-step-label {
-  color: #FB923C;
+  color: #7DD3FC;
 }
 
 [data-theme="dark"] .life-step-line {

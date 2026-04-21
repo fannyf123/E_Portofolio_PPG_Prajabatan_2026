@@ -80,7 +80,7 @@
 }
 
 .timeline-item:nth-child(odd) .timeline-year {
-  background: rgba(255,107,107,0.12);
+  background: rgba(57, 189, 235,0.12);
   color: var(--coral);
 }
 
@@ -126,8 +126,8 @@
   flex-shrink: 0;
   color: white;
 }
-.edu-logo-ppg { background: linear-gradient(135deg, #1E3A5F, #2A4E7F); }
-.edu-logo-s1 { background: linear-gradient(135deg, #F97316, #FB923C); }
+.edu-logo-ppg { background: linear-gradient(135deg, #0F5EA8, #2FAFE6); }
+.edu-logo-s1 { background: linear-gradient(135deg, #39BDEB, #7DD3FC); }
 .edu-logo-smk { background: linear-gradient(135deg, #2ec4b6, #56ccf2); }
 .edu-info {
   display: flex;
@@ -139,13 +139,13 @@
   align-items: center;
   gap: 4px;
   padding: 3px 10px;
-  background: rgba(249,115,22,0.1);
-  color: #F97316;
+  background: rgba(57, 189, 235,0.1);
+  color: #39BDEB;
   border-radius: 50px;
   font-size: 0.75rem;
   font-weight: 600;
-  border: 1px solid rgba(249,115,22,0.3);
+  border: 1px solid rgba(57, 189, 235,0.3);
 }
-.ppg-era .timeline-dot { border-color: #1E3A5F; background: #1E3A5F; }
-.s1-era .timeline-dot { border-color: #F97316; }
+.ppg-era .timeline-dot { border-color: #0F5EA8; background: #0F5EA8; }
+.s1-era .timeline-dot { border-color: #39BDEB; }
 .smk-era .timeline-dot { border-color: #2ec4b6; }

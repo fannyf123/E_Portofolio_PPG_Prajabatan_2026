@@ -21,7 +21,7 @@
 .philosophy-card {
   max-width: 800px;
   margin: 0 auto 48px;
-  background: linear-gradient(135deg, rgba(30,58,95,0.04), rgba(249,115,22,0.04));
+  background: linear-gradient(135deg, rgba(15, 94, 168,0.04), rgba(57, 189, 235,0.04));
   border-radius: 24px;
   padding: 48px;
   border: 1px solid var(--gray-100);
@@ -31,7 +31,7 @@
 .philosophy-card .quote-icon {
   font-size: 4rem;
   line-height: 1;
-  background: var(--gradient-primary-accent, linear-gradient(135deg, #1E3A5F, #F97316));
+  background: var(--gradient-primary-accent, linear-gradient(135deg, #0F5EA8, #39BDEB));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -72,8 +72,8 @@
 
 .pillar-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 16px 48px rgba(30,58,95,0.15);
-  border-color: #1E3A5F;
+  box-shadow: 0 16px 48px rgba(15, 94, 168,0.15);
+  border-color: #0F5EA8;
 }
 
 .pillar-icon {
@@ -82,7 +82,7 @@
 }
 
 .pillar-card h4 {
-  color: #1E3A5F;
+  color: #0F5EA8;
   font-size: 1.1rem;
   margin-bottom: 12px;
 }
@@ -105,7 +105,7 @@
 .pillar-progress-fill {
   height: 100%;
   border-radius: 4px;
-  background: linear-gradient(90deg, #1E3A5F, #F97316);
+  background: linear-gradient(90deg, #0F5EA8, #39BDEB);
   width: 0;
   transition: width 1s ease;
 }
@@ -116,11 +116,11 @@
 }
 
 [data-theme="dark"] .pillar-card h4 {
-  color: var(--accent, #F97316);
+  color: var(--accent, #39BDEB);
 }
 
 [data-theme="dark"] .philosophy-card {
-  background: linear-gradient(135deg, rgba(30,58,95,0.06), rgba(249,115,22,0.04));
+  background: linear-gradient(135deg, rgba(15, 94, 168,0.06), rgba(57, 189, 235,0.04));
   border-color: var(--gray-200);
 }
 

@@ -9,16 +9,16 @@
 /* ---------- CSS Custom Properties ---------- */
 :root {
   /* Primary Palette */
-  --coral:        #FF6B6B;
-  --coral-light:  #FF8E8E;
-  --coral-dark:   #E55A5A;
+  --coral:        #39BDEB;
+  --coral-light:  #7DD3FC;
+  --coral-dark:   #0E8AC3;
   --teal:         #2EC4B6;
   --teal-light:   #4DD9CC;
   --teal-dark:    #1FA899;
   --lavender:     #9B72CF;
   --lavender-light:#B794E0;
-  --amber:        #FFB347;
-  --amber-light:  #FFC875;
+  --amber:        #F1D7A6;
+  --amber-light:  #F7E6C4;
   --sky:          #56CCF2;
   --sky-light:    #7DDBF8;
   --mint:         #6BCB77;
@@ -39,20 +39,20 @@
   --gray-900:     #0D1117;
 
   /* Gradients */
-  --gradient-hero:    linear-gradient(135deg, #FF6B6B 0%, #FFB347 25%, #56CCF2 50%, #9B72CF 75%, #2EC4B6 100%);
-  --gradient-coral:   linear-gradient(135deg, #FF6B6B, #FF8E8E);
+  --gradient-hero:    linear-gradient(135deg, #39BDEB 0%, #F1D7A6 25%, #56CCF2 50%, #9B72CF 75%, #2EC4B6 100%);
+  --gradient-coral:   linear-gradient(135deg, #39BDEB, #7DD3FC);
   --gradient-teal:    linear-gradient(135deg, #2EC4B6, #56CCF2);
   --gradient-lavender:linear-gradient(135deg, #9B72CF, #B794E0);
-  --gradient-warm:    linear-gradient(135deg, #FF6B6B, #FFB347);
+  --gradient-warm:    linear-gradient(135deg, #39BDEB, #0F5EA8);
   --gradient-cool:    linear-gradient(135deg, #56CCF2, #2EC4B6);
-  --gradient-sunset:  linear-gradient(135deg, #FF6F91, #FFB347);
+  --gradient-sunset:  linear-gradient(135deg, #FF6F91, #F1D7A6);
 
   /* Shadows */
   --shadow-sm:   0 2px 8px rgba(0,0,0,0.06);
   --shadow-md:   0 4px 20px rgba(0,0,0,0.08);
   --shadow-lg:   0 8px 40px rgba(0,0,0,0.10);
   --shadow-xl:   0 16px 60px rgba(0,0,0,0.12);
-  --shadow-glow-coral:   0 8px 30px rgba(255,107,107,0.3);
+  --shadow-glow-coral:   0 8px 30px rgba(57, 189, 235,0.3);
   --shadow-glow-teal:    0 8px 30px rgba(46,196,182,0.3);
   --shadow-glow-lavender:0 8px 30px rgba(155,114,207,0.3);
 
@@ -74,17 +74,17 @@
   --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
 
   /* New Brand Colors */
-  --primary: #1E3A5F;
-  --primary-light: #2A4E7F;
-  --primary-dark: #162C48;
-  --accent: #F97316;
-  --accent-light: #FB923C;
-  --accent-dark: #EA6A0A;
+  --primary: #0F5EA8;
+  --primary-light: #2FAFE6;
+  --primary-dark: #0A4778;
+  --accent: #39BDEB;
+  --accent-light: #7DD3FC;
+  --accent-dark: #0E8AC3;
   --bg-light: #F8FAFC;
   --bg-dark: #0F172A;
-  --gradient-primary: linear-gradient(135deg, #1E3A5F, #2A4E7F);
-  --gradient-accent: linear-gradient(135deg, #F97316, #FB923C);
-  --gradient-primary-accent: linear-gradient(135deg, #1E3A5F, #F97316);
+  --gradient-primary: linear-gradient(135deg, #0F5EA8, #2FAFE6);
+  --gradient-accent: linear-gradient(135deg, #39BDEB, #7DD3FC);
+  --gradient-primary-accent: linear-gradient(135deg, #0F5EA8, #39BDEB);
 }
 
 /* ---------- Reset & Base ---------- */
@@ -371,10 +371,10 @@ ul, ol { list-style: none; }
   margin-bottom: 16px;
 }
 
-.section-badge.coral   { background: rgba(255,107,107,0.12); color: var(--coral); }
+.section-badge.coral   { background: rgba(57, 189, 235,0.12); color: var(--coral); }
 .section-badge.teal    { background: rgba(46,196,182,0.12);  color: var(--teal-dark); }
 .section-badge.lavender{ background: rgba(155,114,207,0.12); color: var(--lavender); }
-.section-badge.amber   { background: rgba(255,179,71,0.12);  color: #CC8A30; }
+.section-badge.amber   { background: rgba(241, 215, 166,0.12);  color: #0F7FB8; }
 .section-badge.sky     { background: rgba(86,204,242,0.12);  color: #2E9BC4; }
 .section-badge.mint    { background: rgba(107,203,119,0.12); color: #4DA85A; }
 
@@ -459,7 +459,7 @@ ul, ol { list-style: none; }
 
 .back-to-top:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(255,107,107,0.4);
+  box-shadow: 0 12px 40px rgba(57, 189, 235,0.4);
 }
 
 /* ============================================

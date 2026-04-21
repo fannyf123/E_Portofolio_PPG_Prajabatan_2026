@@ -171,7 +171,7 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
                 padding 0.3s ease;
     padding: 0 24px;
     z-index: 999;
-    border-bottom: 3px solid var(--accent, #F97316);
+    border-bottom: 3px solid var(--accent, #39BDEB);
   }
   .nav-links.open {
     max-height: 100vh;
@@ -208,7 +208,7 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
     display: block;
     margin-top: 16px;
     padding: 14px;
-    background: linear-gradient(135deg, #1E3A5F, #2A4E7F);
+    background: linear-gradient(135deg, #0F5EA8, #2FAFE6);
     color: white;
     border-radius: 12px;
     text-align: center;
@@ -217,11 +217,24 @@ body                   { font-size: clamp(0.9rem, 2.5vw, 1rem); }
   }
 
   [data-theme="dark"] .nav-links {
-    background: var(--gray-900, #111);
-    border-bottom-color: #F97316;
+    background: rgba(13, 17, 23, 0.98);
+    border-bottom-color: var(--accent, #39BDEB);
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
   }
   [data-theme="dark"] .nav-links a {
+    color: rgba(255, 255, 255, 0.84);
     border-bottom-color: rgba(255,255,255,0.06);
+  }
+  [data-theme="dark"] .nav-links a:hover,
+  [data-theme="dark"] .nav-links a.active {
+    color: var(--accent-light, #7DD3FC);
+  }
+  [data-theme="dark"] .nav-links::after {
+    background: linear-gradient(135deg, #0F5EA8, #39BDEB);
+    color: #fff;
+  }
+  [data-theme="dark"] .hamburger span {
+    background: var(--gray-700);
   }
 
   /* --- TIMELINE (Education) --- */
