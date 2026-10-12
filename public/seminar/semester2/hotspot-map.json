@@ -1,0 +1,2999 @@
+{
+  "coordinate_system": "percent-of-1920x1080",
+  "courses": {
+    "PSE": {
+      "sections": {
+        "connection": 2,
+        "challenge": 4,
+        "concept": 5,
+        "change": 9
+      },
+      "slides": {
+        "1": {
+          "sourceSha256": "41d6944ba9b6de90217460ce9c3680a73b1ef5abc5b5bec2a8b76b516d6f8cc5",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.875,
+              "y": 3.148148,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 2.864583,
+              "y": 61.574074,
+              "width": 30.989583,
+              "height": 25.462963,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-2",
+              "x": 36.458333,
+              "y": 61.574074,
+              "width": 28.541667,
+              "height": 25.462963,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Mulai refleksi 4C"
+            },
+            {
+              "id": "cover-3",
+              "x": 67.708333,
+              "y": 61.574074,
+              "width": 29.6875,
+              "height": 25.462963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            }
+          ]
+        },
+        "2": {
+          "sourceSha256": "09a7b3b105e6b00723ba070058b16654b1dea4b993519ed25f3b17ae98993297",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.114583,
+              "y": 3.055556,
+              "width": 7.1875,
+              "height": 5.0,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.388889,
+              "width": 6.197917,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.927083,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.388889,
+              "width": 6.40625,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.166667,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "3": {
+          "sourceSha256": "89e919c1f077c2ede37e0c2e7560d4e59d3da83c8efde0ded3d3979398c80ecb",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.1875,
+              "y": 90.37037,
+              "width": 6.197917,
+              "height": 5.092593,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 66.822917,
+              "y": 90.740741,
+              "width": 6.875,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 73.385417,
+              "y": 90.555556,
+              "width": 6.5625,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 79.6875,
+              "y": 90.648148,
+              "width": 6.145833,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 86.09375,
+              "y": 90.555556,
+              "width": 5.46875,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "4": {
+          "sourceSha256": "a7fd98912c9a7b49dde8f77d9195c48dd5924a9a08c60c6627a1ce1c02af532e",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.854167,
+              "y": 91.481481,
+              "width": 5.0,
+              "height": 4.074074,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 71.09375,
+              "y": 91.666667,
+              "width": 5.416667,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 76.354167,
+              "y": 91.388889,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 82.083333,
+              "y": 91.388889,
+              "width": 5.9375,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 88.020833,
+              "y": 91.296296,
+              "width": 5.572917,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "5": {
+          "sourceSha256": "a8787a40622b444e35f7323d9882d767ba86f23abf1ddc8d7eaac158abcfd049",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.104167,
+              "y": 3.333333,
+              "width": 6.5625,
+              "height": 5.37037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.645833,
+              "y": 91.759259,
+              "width": 5.9375,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.6875,
+              "y": 91.574074,
+              "width": 6.770833,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.510417,
+              "y": 91.481481,
+              "width": 6.302083,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 92.916667,
+              "y": 91.388889,
+              "width": 6.041667,
+              "height": 4.722222,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "6": {
+          "sourceSha256": "8dd03674abd952c52163376cbb76e2897aaf94b1e9e70a7afa7c347e50666c00",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.072917,
+              "y": 3.703704,
+              "width": 5.3125,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.90625,
+              "y": 91.574074,
+              "width": 6.145833,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.052083,
+              "y": 91.388889,
+              "width": 6.666667,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.71875,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.166667,
+              "y": 91.481481,
+              "width": 4.6875,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "7": {
+          "sourceSha256": "219b33abd5b483022fe1bd95e03a3cc7fe9a35b0c3acb1aefe9466e11d7ea3bb",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.583333,
+              "y": 3.518519,
+              "width": 6.71875,
+              "height": 4.62963,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.388889,
+              "width": 6.197917,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.270833,
+              "y": 91.296296,
+              "width": 6.822917,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.296296,
+              "width": 6.40625,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "8": {
+          "sourceSha256": "626de0f29facf6fb255f38a7bbbcfc5fee3106e284ac8e06851978431d16f727",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.697917,
+              "y": 92.685185,
+              "width": 4.739583,
+              "height": 3.703704,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.5,
+              "y": 92.685185,
+              "width": 5.260417,
+              "height": 3.611111,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 77.5,
+              "y": 92.407407,
+              "width": 5.729167,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 83.020833,
+              "y": 92.407407,
+              "width": 5.364583,
+              "height": 4.074074,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 89.270833,
+              "y": 92.407407,
+              "width": 4.270833,
+              "height": 4.166667,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "9": {
+          "sourceSha256": "f17a5a444c4dda80a66add5db543ad7c228c9c091d339164405b3993279813a8",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.84375,
+              "y": 3.611111,
+              "width": 6.822917,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.270833,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.296296,
+              "width": 6.458333,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.84375,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "10": {
+          "sourceSha256": "97a24df608f65009ed17229071d5a6697f959e1ccf17038065cbada0b9027b4e",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.395833,
+              "y": 3.611111,
+              "width": 5.9375,
+              "height": 4.62963,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.84375,
+              "y": 91.481481,
+              "width": 6.614583,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.25,
+              "y": 91.203704,
+              "width": 6.302083,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.239583,
+              "y": 91.203704,
+              "width": 6.041667,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.322917,
+              "y": 91.388889,
+              "width": 4.635417,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        }
+      }
+    },
+    "PMAL": {
+      "sections": {
+        "connection": 2,
+        "challenge": 5,
+        "concept": 4,
+        "change": 9
+      },
+      "slides": {
+        "1": {
+          "sourceSha256": "6248e033d7c4e669dd4f395848a3a71c9492880ab463c297563448d865c79414",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.614583,
+              "y": 91.203704,
+              "width": 6.09375,
+              "height": 4.722222,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.385417,
+              "y": 62.5,
+              "width": 29.84375,
+              "height": 24.537037,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-2",
+              "x": 35.416667,
+              "y": 62.5,
+              "width": 29.0625,
+              "height": 24.537037,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Mulai refleksi 4C"
+            },
+            {
+              "id": "cover-3",
+              "x": 66.927083,
+              "y": 62.5,
+              "width": 29.739583,
+              "height": 24.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            }
+          ]
+        },
+        "2": {
+          "sourceSha256": "e22abe6fb6218eff1892cf7b4376462c1370471d1d78db90990df6259787ce75",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.6875,
+              "y": 3.148148,
+              "width": 6.510417,
+              "height": 5.37037,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 71.510417,
+              "y": 91.388889,
+              "width": 7.291667,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.90625,
+              "y": 91.203704,
+              "width": 6.875,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.09375,
+              "y": 91.203704,
+              "width": 6.510417,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.895833,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "3": {
+          "sourceSha256": "625d5d0049b892464fd46ed85fbfd3fe296a8c3490da1e3e80c472d8a3a662b1",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.822917,
+              "y": 91.574074,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 78.072917,
+              "y": 92.87037,
+              "width": 5.885417,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.697917,
+              "y": 92.685185,
+              "width": 5.416667,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.0625,
+              "y": 92.777778,
+              "width": 4.895833,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.958333,
+              "y": 92.592593,
+              "width": 4.635417,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "4": {
+          "sourceSha256": "5034e53e46f5e45c2c38aad516312d43f7a1afb26c2123064335f008f67aa83a",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.520833,
+              "y": 90.833333,
+              "width": 6.71875,
+              "height": 4.907407,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "5": {
+          "sourceSha256": "c9d32ade8f3ac9378381ba5ef974644f12130572314a04dc7a2ae2f6f6429142",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 76.40625,
+              "y": 91.574074,
+              "width": 6.197917,
+              "height": 5.092593,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-concept",
+              "x": 91.302083,
+              "y": 93.518519,
+              "width": 4.21875,
+              "height": 3.611111,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 95.0,
+              "y": 93.333333,
+              "width": 3.958333,
+              "height": 3.981481,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            },
+            {
+              "id": "footer-connection",
+              "x": 83.541667,
+              "y": 90.462963,
+              "width": 4.322917,
+              "height": 6.481481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 87.916667,
+              "y": 90.462963,
+              "width": 3.75,
+              "height": 6.481481,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            }
+          ]
+        },
+        "6": {
+          "sourceSha256": "9cac5280657a5babf239e0d3aaffef084e9d2bcdddb91066bf4da2121bdb1bde",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.791667,
+              "y": 91.296296,
+              "width": 5.364583,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.416667,
+              "y": 91.018519,
+              "width": 6.302083,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 82.03125,
+              "y": 90.925926,
+              "width": 5.625,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.96875,
+              "y": 90.925926,
+              "width": 5.260417,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.697917,
+              "y": 91.018519,
+              "width": 4.791667,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "7": {
+          "sourceSha256": "4b9b11bd8406f5046fbf3c90737da1a4de8b3cdcd71c154913d310cdeb0e8030",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.729167,
+              "y": 3.333333,
+              "width": 6.354167,
+              "height": 4.62963,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "8": {
+          "sourceSha256": "712190d6bb8d2345b110c9866fa28284a1dda6e4eb27df5f3c55a6dfd5c45a77",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 65.208333,
+              "y": 91.944444,
+              "width": 5.0,
+              "height": 3.981481,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.552083,
+              "y": 91.944444,
+              "width": 5.78125,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.489583,
+              "y": 91.759259,
+              "width": 6.614583,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.71875,
+              "y": 91.944444,
+              "width": 4.947917,
+              "height": 4.166667,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.59375,
+              "y": 91.851852,
+              "width": 4.635417,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "9": {
+          "sourceSha256": "f810225eebd21ad699c09eb85def6ad462442d2cb27400ddbc69fc353c444b60",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.21875,
+              "y": 91.203704,
+              "width": 5.364583,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.052083,
+              "y": 91.296296,
+              "width": 6.458333,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.25,
+              "y": 91.296296,
+              "width": 6.25,
+              "height": 4.166667,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.395833,
+              "y": 91.203704,
+              "width": 6.09375,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.333333,
+              "y": 91.203704,
+              "width": 5.78125,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "10": {
+          "sourceSha256": "057a99422fe519a5c148c06360caaacfe40d4c926652b776628fcba0db3f28b0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.541667,
+              "y": 93.796296,
+              "width": 5.625,
+              "height": 4.722222,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.479167,
+              "y": 88.888889,
+              "width": 6.666667,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.833333,
+              "y": 88.611111,
+              "width": 6.40625,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.875,
+              "y": 88.611111,
+              "width": 6.041667,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 92.65625,
+              "y": 88.703704,
+              "width": 5.885417,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        }
+      }
+    },
+    "PPL": {
+      "sections": {
+        "connection": 3,
+        "challenge": 5,
+        "concept": 6,
+        "change": 9
+      },
+      "slides": {
+        "1": {
+          "sourceSha256": "a9a4a88cd20c2bd43064fcdae9516ec8b8bc67d248375bcceb3a89c31b268f91",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.6875,
+              "y": 90.277778,
+              "width": 6.354167,
+              "height": 5.0,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.229167,
+              "y": 60.648148,
+              "width": 29.375,
+              "height": 25.462963,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 67.1875,
+              "y": 60.648148,
+              "width": 29.479167,
+              "height": 25.462963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 36.145833,
+              "y": 66.388889,
+              "width": 5.729167,
+              "height": 10.277778,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 46.875,
+              "y": 66.111111,
+              "width": 5.729167,
+              "height": 9.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 35.833333,
+              "y": 76.388889,
+              "width": 6.25,
+              "height": 9.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 46.927083,
+              "y": 76.296296,
+              "width": 5.729167,
+              "height": 9.814815,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ]
+        },
+        "2": {
+          "sourceSha256": "3aac2dce147ed8f63414273d4ee766c6b79b73dae85501463e7c58f657a11b10",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.416667,
+              "y": 91.574074,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "3": {
+          "sourceSha256": "0e22982e3d430d2f181da5aebc8cbf5dc8ec7b70a6c4aeaf5e56563d5ad606bd",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 75.989583,
+              "y": 90.740741,
+              "width": 6.71875,
+              "height": 4.907407,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "4": {
+          "sourceSha256": "778fcf79be934735538d566203e8ee2882da47c0eeaebc7cc909b018daafe666",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.114583,
+              "y": 2.962963,
+              "width": 7.239583,
+              "height": 4.907407,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.729167,
+              "y": 91.388889,
+              "width": 7.5,
+              "height": 3.981481,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.4375,
+              "y": 91.111111,
+              "width": 6.927083,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 85.520833,
+              "y": 91.111111,
+              "width": 6.5625,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 91.203704,
+              "width": 5.0,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "5": {
+          "sourceSha256": "a617795dbae5d0083cf88c32c6834665607bb2a40eae1f20e348e1fd68b91c86",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.291667,
+              "y": 86.574074,
+              "width": 6.041667,
+              "height": 4.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.239583,
+              "y": 92.12963,
+              "width": 5.989583,
+              "height": 4.074074,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.895833,
+              "y": 91.944444,
+              "width": 5.572917,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.083333,
+              "y": 91.944444,
+              "width": 5.15625,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.010417,
+              "y": 91.944444,
+              "width": 4.84375,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "6": {
+          "sourceSha256": "6ed96319cd18464264bd892db6409da0ea764c8eaf5a8a3811c69272140b7946",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.479167,
+              "y": 90.092593,
+              "width": 6.770833,
+              "height": 5.0,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "7": {
+          "sourceSha256": "85856858a83d5de207b486e227d8a7d89f7b2b6375667aaa82c49785df0eff21",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.5625,
+              "y": 88.888889,
+              "width": 6.458333,
+              "height": 5.092593,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 65.9375,
+              "y": 89.074074,
+              "width": 6.145833,
+              "height": 4.074074,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 72.604167,
+              "y": 88.796296,
+              "width": 5.520833,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 78.854167,
+              "y": 88.981481,
+              "width": 5.0,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 84.739583,
+              "y": 88.981481,
+              "width": 4.6875,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "8": {
+          "sourceSha256": "e18ca87ca324e4d5f79840cbbeb71f6c908e01161c2926fa5e20d2fa6dbb54bd",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.375,
+              "y": 90.925926,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 76.666667,
+              "y": 91.203704,
+              "width": 5.364583,
+              "height": 3.888889,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.822917,
+              "y": 90.925926,
+              "width": 6.197917,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.708333,
+              "y": 91.018519,
+              "width": 5.9375,
+              "height": 4.259259,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 90.925926,
+              "width": 5.625,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "9": {
+          "sourceSha256": "19810d3ccf52249b941c63dd5252f28fcca459cb8088ea2a27b5920ad6cb28a4",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.322917,
+              "y": 3.333333,
+              "width": 7.083333,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "10": {
+          "sourceSha256": "cfbc6f32b27421ccfe4fdcda37a4ac38878c0b925520a8c3308f12201437c39c",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.5625,
+              "y": 2.87037,
+              "width": 6.302083,
+              "height": 4.722222,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.125,
+              "y": 91.666667,
+              "width": 6.145833,
+              "height": 3.981481,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.375,
+              "y": 91.388889,
+              "width": 6.822917,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.197917,
+              "y": 91.388889,
+              "width": 6.458333,
+              "height": 4.444444,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.010417,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        }
+      }
+    },
+    "KEPEMIMPINAN": {
+      "sections": {
+        "connection": 2,
+        "challenge": 4,
+        "concept": 5,
+        "change": 9
+      },
+      "slides": {
+        "1": {
+          "sourceSha256": "05bf77a871f943925b2305c562f4a9ff40220d738effc86c56242dc9a6aaa126",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.104167,
+              "y": 90.462963,
+              "width": 6.875,
+              "height": 5.0,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 2.708333,
+              "y": 63.148148,
+              "width": 34.791667,
+              "height": 24.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 68.229167,
+              "y": 63.148148,
+              "width": 29.427083,
+              "height": 24.074074,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 43.177083,
+              "y": 68.148148,
+              "width": 8.75,
+              "height": 7.314815,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 56.770833,
+              "y": 68.055556,
+              "width": 9.583333,
+              "height": 6.944444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 40.104167,
+              "y": 79.074074,
+              "width": 9.791667,
+              "height": 7.5,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 56.770833,
+              "y": 78.888889,
+              "width": 9.6875,
+              "height": 7.685185,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ]
+        },
+        "2": {
+          "sourceSha256": "cb262b03cdfe4fef7586f2bb5bdd672478e6466b467467267a4991f3ce827ff0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.125,
+              "y": 94.166667,
+              "width": 5.3125,
+              "height": 4.444444,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "3": {
+          "sourceSha256": "f0637a71869498d97cee464f8d8fbe63663ed80c8bf25bdc9428e2de244e354c",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.041667,
+              "y": 91.944444,
+              "width": 7.239583,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "4": {
+          "sourceSha256": "e48fe74b066d5cb1ba99c43c3fecd590db0cc4dad2cb92508ffdd1e4b79ae1f0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.302083,
+              "y": 92.407407,
+              "width": 6.614583,
+              "height": 5.0,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 78.802083,
+              "y": 93.055556,
+              "width": 5.572917,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 84.21875,
+              "y": 92.777778,
+              "width": 5.0,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.166667,
+              "y": 92.777778,
+              "width": 4.583333,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.59375,
+              "y": 92.777778,
+              "width": 4.322917,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "5": {
+          "sourceSha256": "623685d0776022fe41a1e5cca5441d553555b4e478b330b7e565b1fb9093e490",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.479167,
+              "y": 90.462963,
+              "width": 5.729167,
+              "height": 4.62963,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 77.916667,
+              "y": 90.925926,
+              "width": 4.895833,
+              "height": 3.611111,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.75,
+              "y": 90.740741,
+              "width": 4.635417,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.322917,
+              "y": 90.740741,
+              "width": 4.270833,
+              "height": 3.981481,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.583333,
+              "y": 90.648148,
+              "width": 4.114583,
+              "height": 4.166667,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "6": {
+          "sourceSha256": "5681d9e4386ecbc7436cba300fb3cc8a940e749b8e972f2fa9a38f85d542bc0a",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.427083,
+              "y": 89.907407,
+              "width": 6.5625,
+              "height": 5.462963,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "7": {
+          "sourceSha256": "b4417ff41af7c07067b6d346471ac99a0dffcedf96dd3651189cd8fc84612eac",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.0625,
+              "y": 92.777778,
+              "width": 5.625,
+              "height": 4.722222,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "8": {
+          "sourceSha256": "927f4f4a0c7bdc08efa6a809d88270e78a2f0c4f42bd5aa7e6b9e50eae0ec484",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.239583,
+              "y": 3.055556,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.104167,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.302083,
+              "y": 91.203704,
+              "width": 6.041667,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.395833,
+              "y": 91.203704,
+              "width": 5.729167,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.28125,
+              "y": 91.111111,
+              "width": 5.520833,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        },
+        "9": {
+          "sourceSha256": "dd7ed11889f24ffb32da446c1b1b8a8e2a5bf691629c051d61c6569915dcbde0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.760417,
+              "y": 3.240741,
+              "width": 6.770833,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "10": {
+          "sourceSha256": "f535069382c426023fa61ccc50623f624206ee0f91efd1728fbcf4a4a2fd5181",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.96875,
+              "y": 92.777778,
+              "width": 5.0,
+              "height": 4.166667,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 76.09375,
+              "y": 87.87037,
+              "width": 4.6875,
+              "height": 3.888889,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 82.135417,
+              "y": 87.685185,
+              "width": 4.427083,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 88.125,
+              "y": 87.777778,
+              "width": 4.0625,
+              "height": 4.166667,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.802083,
+              "y": 87.685185,
+              "width": 3.854167,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ]
+        }
+      }
+    },
+    "INOVASI": {
+      "sections": {
+        "connection": 4,
+        "challenge": 6,
+        "concept": 7,
+        "change": 10
+      },
+      "slides": {
+        "1": {
+          "sourceSha256": "bd85500dfd0d492d972eb4dfdfecb784f28b288ca451434d6b11558d102169af",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.125,
+              "y": 62.5,
+              "width": 30.729167,
+              "height": 24.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 64.583333,
+              "y": 62.5,
+              "width": 32.03125,
+              "height": 24.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 38.958333,
+              "y": 67.592593,
+              "width": 5.052083,
+              "height": 11.759259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 49.583333,
+              "y": 67.592593,
+              "width": 11.041667,
+              "height": 7.5,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 35.625,
+              "y": 80.092593,
+              "width": 10.989583,
+              "height": 6.018519,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 50.416667,
+              "y": 79.814815,
+              "width": 11.822917,
+              "height": 6.296296,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ]
+        },
+        "2": {
+          "sourceSha256": "44ffda9d424b05b3b3892d2fcc6c79df61eebdc146644ce7a298bb69d384a407",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.197917,
+              "y": 3.148148,
+              "width": 5.885417,
+              "height": 4.351852,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.364583,
+              "y": 91.203704,
+              "width": 7.708333,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.333333,
+              "y": 91.018519,
+              "width": 7.135417,
+              "height": 4.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 85.833333,
+              "y": 91.203704,
+              "width": 6.458333,
+              "height": 4.62963,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.645833,
+              "y": 91.203704,
+              "width": 5.0,
+              "height": 4.62963,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "3": {
+          "sourceSha256": "9cb6b564bc03eb0e2d10eef1d348998555dd29c4ff9949f703b88c92ac523818",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.666667,
+              "y": 91.574074,
+              "width": 6.09375,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 77.864583,
+              "y": 91.759259,
+              "width": 5.729167,
+              "height": 3.796296,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.072917,
+              "y": 91.574074,
+              "width": 5.625,
+              "height": 4.259259,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 88.229167,
+              "y": 91.481481,
+              "width": 5.677083,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 91.388889,
+              "width": 5.729167,
+              "height": 4.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "4": {
+          "sourceSha256": "2d4d12aa61adaa790303ea09dff639a418f4a31351b8c0366c90a429fb647d8f",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.885417,
+              "y": 3.611111,
+              "width": 6.09375,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.481481,
+              "width": 6.197917,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.388889,
+              "width": 6.354167,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.296296,
+              "width": 4.84375,
+              "height": 4.62963,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "5": {
+          "sourceSha256": "c7eb13b306b837c298a411366e1759e4fc308ef23fbf0c0709052fd57ba6a591",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.989583,
+              "y": 3.425926,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.53125,
+              "y": 91.759259,
+              "width": 5.677083,
+              "height": 3.796296,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.208333,
+              "y": 91.481481,
+              "width": 6.5625,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.770833,
+              "y": 91.574074,
+              "width": 6.09375,
+              "height": 4.166667,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.574074,
+              "width": 4.6875,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "6": {
+          "sourceSha256": "e882bdb19f2ab0d7b62e2ed372f9c81591f9e3fa1b9b664f5952b88570f223e0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.96875,
+              "y": 90.648148,
+              "width": 7.8125,
+              "height": 5.555556,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ]
+        },
+        "7": {
+          "sourceSha256": "218e286264e25bc85901c1d74d58b2c8c513022e2a5442dc5941c77bd3aec0f5",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.552083,
+              "y": 91.296296,
+              "width": 6.354167,
+              "height": 5.0,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 67.291667,
+              "y": 91.666667,
+              "width": 5.9375,
+              "height": 3.981481,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 73.229167,
+              "y": 91.388889,
+              "width": 6.666667,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 80.0,
+              "y": 91.666667,
+              "width": 6.197917,
+              "height": 4.074074,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 87.65625,
+              "y": 91.388889,
+              "width": 4.6875,
+              "height": 4.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "8": {
+          "sourceSha256": "0ae49817bfab7cc351db42b37f0d7f59b82ccad9eeeed49dceeb9672f16ad7de",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 67.34375,
+              "y": 91.111111,
+              "width": 6.25,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.21875,
+              "y": 91.296296,
+              "width": 6.770833,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.677083,
+              "y": 91.203704,
+              "width": 6.354167,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.875,
+              "y": 91.296296,
+              "width": 6.09375,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.21875,
+              "y": 91.388889,
+              "width": 4.635417,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "9": {
+          "sourceSha256": "a5212ce794dfff4322abfd2fadf5473d66a4c7ac75cbfed43e3a24cdbba14648",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.489583,
+              "y": 90.833333,
+              "width": 5.729167,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.78125,
+              "y": 90.925926,
+              "width": 5.78125,
+              "height": 3.981481,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 76.614583,
+              "y": 90.740741,
+              "width": 5.260417,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 82.135417,
+              "y": 90.833333,
+              "width": 5.052083,
+              "height": 4.259259,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 87.760417,
+              "y": 90.740741,
+              "width": 4.635417,
+              "height": 4.444444,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        },
+        "10": {
+          "sourceSha256": "87f63cb1f504b9216967fe720839b9fe547c75aa7fb2fd32861148679b1db4d0",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.583333,
+              "y": 3.425926,
+              "width": 6.875,
+              "height": 4.907407,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.020833,
+              "y": 91.481481,
+              "width": 6.09375,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.197917,
+              "y": 91.388889,
+              "width": 6.458333,
+              "height": 4.444444,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.203704,
+              "width": 4.84375,
+              "height": 4.722222,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

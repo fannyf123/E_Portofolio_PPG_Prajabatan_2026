@@ -1,7 +1,7 @@
 /* Naikkan nomor ini setiap kali isi situs berubah. Handler 'activate'
    di bawah menghapus seluruh cache yang namanya tidak cocok, sehingga
    pengunjung lama tidak tertinggal pada versi usang. */
-const CACHE_NAME = 'eportfolio-v3-seminar-ust';
+const CACHE_NAME = 'eportfolio-v5-seminar-hotspots';
 // Hanya file yang benar-benar ada di dist/ yang boleh masuk pre-cache.
 // Asset ber-hash (logo, css, js) TIDAK boleh didaftarkan statis: nama
 // filenya berubah tiap build (Vite hash), sehingga cache.addAll gagal

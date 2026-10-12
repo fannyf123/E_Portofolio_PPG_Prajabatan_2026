@@ -41,7 +41,7 @@ test('localhost membersihkan Service Worker lama sebelum modul utama dimuat', ()
   assert.match(indexHtml, /await window\.__localCacheReset/);
   assert.match(indexHtml, /import\(['"]\.\/js\/main\.js['"]\)/);
   assert.match(main, /!isLocalhost.*serviceWorker|serviceWorker.*!isLocalhost/s);
-  assert.match(serviceWorker, /const CACHE_NAME = 'eportfolio-v3-seminar-ust';/);
+  assert.match(serviceWorker, /const CACHE_NAME = 'eportfolio-v5-seminar-hotspots';/);
 });
 
 test('preferensi reduced motion tidak dinonaktifkan oleh hard-code atau media query mustahil', () => {

@@ -973,7 +973,7 @@
       <!-- ============ HASIL KARYA SISWA ============ -->
       <div class="hasil-siswa-wrapper" id="hasilSiswaWrapper" hidden>
         <div class="hasil-siswa-intro reveal">
-          <p>Cuplikan karya siswa kelas XI Teknik Pemesinan SMK Negeri 2 Klaten sebagai bukti hasil pembelajaran. Identitas siswa ditampilkan menggunakan inisial untuk menjaga privasi.</p>
+          <p>Cuplikan karya siswa kelas XI Teknik Pemesinan SMK Negeri 2 Depok Sleman sebagai bukti hasil pembelajaran. Identitas siswa ditampilkan menggunakan inisial untuk menjaga privasi.</p>
         </div>
 
         <div class="hasil-siswa-grid">
@@ -1497,7 +1497,7 @@
           <div class="gallery-video-text">
             <span class="gallery-video-tag">Video Pembelajaran</span>
             <h3>Demonstrasi Praktik Mengajar</h3>
-            <p>Cuplikan kegiatan mengajar di kelas Teknik Pemesinan SMK Negeri 2 Klaten</p>
+            <p>Cuplikan kegiatan mengajar di kelas Teknik Pemesinan SMK Negeri 2 Depok Sleman</p>
           </div>
         </div>
       </div>
@@ -2666,6 +2666,11 @@
             <div class="seminar-progress" aria-hidden="true">
               <span id="seminarProgressBar"></span>
             </div>
+            <button class="seminar-control seminar-control--hotspots" id="seminarHotspotToggle" type="button"
+              aria-label="Tampilkan area hyperlink pada slide" aria-pressed="false" title="Tampilkan area klik">
+              <i class="fa-solid fa-link" aria-hidden="true"></i>
+              <span>Area klik</span>
+            </button>
             <button class="seminar-control seminar-control--fullscreen" id="seminarFullscreen" type="button"
               aria-label="Tampilkan presentasi layar penuh">
               <i class="fa-solid fa-expand" aria-hidden="true"></i>
@@ -2681,8 +2686,12 @@
 
         <div class="seminar-thumbnails" id="seminarThumbnails" aria-label="Daftar slide Pertemuan 1"></div>
         <p class="seminar-player-hint" id="seminarPlayerHint">
-          Gunakan tombol panah, gestur geser, atau hotspot di dalam slide untuk bernavigasi.
+          Klik menu 4C, kartu sampul, logo, atau nomor slide untuk bernavigasi. Gunakan Area klik untuk melihat hyperlink.
         </p>
+        <details class="seminar-notes" id="seminarSpeakerNotes" hidden>
+          <summary>Catatan pembicara · POV saya</summary>
+          <div id="seminarNotesText" class="seminar-notes-text"></div>
+        </details>
       </section>
     </main>
   </div>

@@ -496,9 +496,20 @@
   box-shadow: inset 0 0 0 2px color-mix(in srgb, var(--primary-light) 20%, transparent);
 }
 
+.seminar-stage.show-hotspots .seminar-hotspot {
+  border-color: color-mix(in srgb, var(--primary-light) 80%, transparent);
+  background: color-mix(in srgb, var(--primary-light) 7%, transparent);
+  box-shadow: inset 0 0 0 1px var(--seminar-bg);
+}
+
+.seminar-control--hotspots[aria-pressed="true"] {
+  border-color: var(--primary-light);
+  background: color-mix(in srgb, var(--primary-light) 20%, transparent);
+}
+
 .seminar-controls {
   display: grid;
-  grid-template-columns: auto minmax(80px, 1fr) auto auto;
+  grid-template-columns: auto minmax(80px, 1fr) auto auto auto;
   align-items: center;
   gap: 12px;
   padding: 14px 4px 2px;
@@ -773,7 +784,7 @@
   }
 
   .seminar-controls {
-    grid-template-columns: 44px 1fr 44px 44px;
+    grid-template-columns: 44px minmax(20px, 1fr) 44px 44px 44px;
     gap: 8px;
   }
 
@@ -787,10 +798,14 @@
   }
 
   .seminar-control--next {
-    grid-column: 4;
+    grid-column: 5;
   }
 
   .seminar-control--fullscreen {
+    grid-column: 4;
+  }
+
+  .seminar-control--hotspots {
     grid-column: 3;
   }
 
@@ -915,4 +930,30 @@
 
 .seminar-thumb.is-active .seminar-thumb-text {
   color: var(--primary-light, var(--primary));
+}
+
+.seminar-notes {
+  margin-top: 18px;
+  padding: 14px 18px;
+  border: 1px solid var(--seminar-line);
+  border-radius: var(--radius-md);
+  background: var(--seminar-panel-soft);
+}
+
+.seminar-notes summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.seminar-notes-text {
+  margin-top: 14px;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  color: var(--seminar-muted);
+  line-height: 1.75;
+}
+
+body.is-seminar-fullscreen {
+  overflow: hidden;
 }

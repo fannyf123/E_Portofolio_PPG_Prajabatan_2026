@@ -21,7 +21,7 @@ function initArtefakModal() {
       title: 'RPP Siklus 1 Deep Learning Assembly Tool Post',
       type: 'Rencana Pelaksanaan Pembelajaran (RPP)',
       fileUrl: 'https://drive.google.com/file/d/13HtahKdlZsOCvZQitf-nsfdewEUgTeHT/view?usp=sharing',
-      context: 'RPP ini saya buat untuk kelas XI Teknik Pemesinan SMK Negeri 2 Klaten dengan topik perancangan gambar rakitan Tool Post di Autodesk Inventor. Pelaksanaan dirancang selama 3 pertemuan dengan total 24 JP, mengingat materi assembly memang tidak bisa diselesaikan dalam satu kali pertemuan.',
+      context: 'RPP ini saya buat untuk kelas XI Teknik Pemesinan SMK Negeri 2 Depok Sleman dengan topik perancangan gambar rakitan Tool Post di Autodesk Inventor. Pelaksanaan dirancang selama 3 pertemuan dengan total 24 JP, mengingat materi assembly memang tidak bisa diselesaikan dalam satu kali pertemuan.',
       purpose: 'Tujuannya bukan sekadar menyelesaikan administrasi, melainkan menjadi peta yang membimbing alur pembelajaran agar siswa benar-benar sampai pada produk PDF gambar kerja Tool Post yang sesuai standar industri, bukan hanya tahu teori constraint.',
       pros: [
         'Tiga pendekatan (Understanding by Design, Deep Learning, dan sistem Among Tamansiswa) saya rangkai menjadi satu alur yang nyambung, bukan ditempel terpisah.',
@@ -38,7 +38,7 @@ function initArtefakModal() {
       title: 'Handbook Siswa Siklus 1 Assembly Tool Post Autodesk Inventor',
       type: 'Bahan Ajar / Handbook Siswa',
       fileUrl: 'https://drive.google.com/file/d/17Dta9nZyABe3j9t8P9DnovuKzn75m45l/view?usp=sharing',
-      context: 'Handbook ini saya susun sebagai pendamping LKM untuk siswa kelas XI Teknik Pemesinan SMK Negeri 2 Klaten. Isinya panduan lengkap alur kerja assembly Tool Post sampai ekspor PDF gambar kerja menggunakan Autodesk Inventor, jadi siswa tidak hanya bergantung pada penjelasan saya di kelas.',
+      context: 'Handbook ini saya susun sebagai pendamping LKM untuk siswa kelas XI Teknik Pemesinan SMK Negeri 2 Depok Sleman. Isinya panduan lengkap alur kerja assembly Tool Post sampai ekspor PDF gambar kerja menggunakan Autodesk Inventor, jadi siswa tidak hanya bergantung pada penjelasan saya di kelas.',
       purpose: 'Saya ingin siswa punya pegangan prosedural dan konseptual ketika saya tidak sedang berdiri di samping mereka. Dengan handbook ini, mereka bisa membaca ulang langkah yang lupa, mencocokkan kesalahan dengan tabel troubleshooting, dan tetap melangkah meski saya sedang membantu siswa lain.',
       pros: [
         'Strukturnya saya buat sistematis dari pengenalan komponen sampai ekspor PDF, lengkap dengan tabel kesalahan umum beserta solusinya.',

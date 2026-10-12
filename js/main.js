@@ -140,7 +140,11 @@ function initMain() {
     document.body.classList.add('intro-ready', 'intro-opened');
   };
 
-  if (introTear) {
+  const isSeminarLink = window.location.hash === '#seminar-ppg';
+  if (introTear && isSeminarLink) {
+    introTear.style.display = 'none';
+    completeIntro();
+  } else if (introTear) {
     // Phase 1: Loading bar runs via CSS animation (~1.5s)
     // After page load, transition to Phase 2: "Scroll to view"
     try { window.history.scrollRestoration = 'manual'; } catch (_) {}
@@ -341,6 +345,7 @@ function initMain() {
   window.addEventListener('portfolio:layoutchange', scheduleMeasure, { passive: true });
 
   function highlightNav() {
+    if (document.body.dataset.portfolio === 'seminar') return;
     if (!sectionPositionsReady) return;
     // Trigger highlight when section reaches the upper third of the screen
     const scrollPos = window.scrollY + (window.innerHeight / 3);

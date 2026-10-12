@@ -1,0 +1,402 @@
+[
+  {
+    "course": "PSE",
+    "slide": 1,
+    "source_bytes": 2324825,
+    "web_bytes": 1925094,
+    "thumbnail_bytes": 20710,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 2,
+    "source_bytes": 2175236,
+    "web_bytes": 1844758,
+    "thumbnail_bytes": 18834,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 3,
+    "source_bytes": 2233767,
+    "web_bytes": 1866840,
+    "thumbnail_bytes": 19636,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 4,
+    "source_bytes": 2248583,
+    "web_bytes": 1890018,
+    "thumbnail_bytes": 20152,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 5,
+    "source_bytes": 2200490,
+    "web_bytes": 1862724,
+    "thumbnail_bytes": 18990,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 6,
+    "source_bytes": 2351177,
+    "web_bytes": 1963690,
+    "thumbnail_bytes": 19678,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 7,
+    "source_bytes": 2200617,
+    "web_bytes": 1861272,
+    "thumbnail_bytes": 19366,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 8,
+    "source_bytes": 2402641,
+    "web_bytes": 2009202,
+    "thumbnail_bytes": 21376,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 9,
+    "source_bytes": 2189523,
+    "web_bytes": 1849684,
+    "thumbnail_bytes": 18386,
+    "pixel_equal": true
+  },
+  {
+    "course": "PSE",
+    "slide": 10,
+    "source_bytes": 2197377,
+    "web_bytes": 1859782,
+    "thumbnail_bytes": 19754,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 1,
+    "source_bytes": 2246201,
+    "web_bytes": 1874220,
+    "thumbnail_bytes": 20424,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 2,
+    "source_bytes": 2201988,
+    "web_bytes": 1856068,
+    "thumbnail_bytes": 19336,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 3,
+    "source_bytes": 2227413,
+    "web_bytes": 1893552,
+    "thumbnail_bytes": 19210,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 4,
+    "source_bytes": 2228790,
+    "web_bytes": 1872022,
+    "thumbnail_bytes": 20626,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 5,
+    "source_bytes": 2244454,
+    "web_bytes": 1888470,
+    "thumbnail_bytes": 20112,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 6,
+    "source_bytes": 2094393,
+    "web_bytes": 1763618,
+    "thumbnail_bytes": 19166,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 7,
+    "source_bytes": 2251029,
+    "web_bytes": 1903680,
+    "thumbnail_bytes": 19770,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 8,
+    "source_bytes": 2254749,
+    "web_bytes": 1898008,
+    "thumbnail_bytes": 20306,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 9,
+    "source_bytes": 2265699,
+    "web_bytes": 1927692,
+    "thumbnail_bytes": 19942,
+    "pixel_equal": true
+  },
+  {
+    "course": "PMAL",
+    "slide": 10,
+    "source_bytes": 2162814,
+    "web_bytes": 1818840,
+    "thumbnail_bytes": 18474,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 1,
+    "source_bytes": 2409165,
+    "web_bytes": 2019732,
+    "thumbnail_bytes": 22014,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 2,
+    "source_bytes": 2217888,
+    "web_bytes": 1884184,
+    "thumbnail_bytes": 20576,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 3,
+    "source_bytes": 2240139,
+    "web_bytes": 1894260,
+    "thumbnail_bytes": 20236,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 4,
+    "source_bytes": 2170899,
+    "web_bytes": 1821988,
+    "thumbnail_bytes": 19202,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 5,
+    "source_bytes": 2149809,
+    "web_bytes": 1818224,
+    "thumbnail_bytes": 19780,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 6,
+    "source_bytes": 2161119,
+    "web_bytes": 1822286,
+    "thumbnail_bytes": 19698,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 7,
+    "source_bytes": 2171598,
+    "web_bytes": 1825440,
+    "thumbnail_bytes": 19528,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 8,
+    "source_bytes": 2233410,
+    "web_bytes": 1895284,
+    "thumbnail_bytes": 20676,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 9,
+    "source_bytes": 2142977,
+    "web_bytes": 1803184,
+    "thumbnail_bytes": 20312,
+    "pixel_equal": true
+  },
+  {
+    "course": "PPL",
+    "slide": 10,
+    "source_bytes": 2212375,
+    "web_bytes": 1882936,
+    "thumbnail_bytes": 19830,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 1,
+    "source_bytes": 2806957,
+    "web_bytes": 2328106,
+    "thumbnail_bytes": 23794,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 2,
+    "source_bytes": 2813790,
+    "web_bytes": 2354002,
+    "thumbnail_bytes": 25044,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 3,
+    "source_bytes": 2908504,
+    "web_bytes": 2413216,
+    "thumbnail_bytes": 26124,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 4,
+    "source_bytes": 2669775,
+    "web_bytes": 2228852,
+    "thumbnail_bytes": 23836,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 5,
+    "source_bytes": 2625362,
+    "web_bytes": 2174526,
+    "thumbnail_bytes": 23304,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 6,
+    "source_bytes": 2547973,
+    "web_bytes": 2138344,
+    "thumbnail_bytes": 22588,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 7,
+    "source_bytes": 2678446,
+    "web_bytes": 2249556,
+    "thumbnail_bytes": 25064,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 8,
+    "source_bytes": 2626492,
+    "web_bytes": 2223776,
+    "thumbnail_bytes": 24076,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 9,
+    "source_bytes": 2437115,
+    "web_bytes": 2052978,
+    "thumbnail_bytes": 21506,
+    "pixel_equal": true
+  },
+  {
+    "course": "KEPEMIMPINAN",
+    "slide": 10,
+    "source_bytes": 2513668,
+    "web_bytes": 2108112,
+    "thumbnail_bytes": 21864,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 1,
+    "source_bytes": 2341263,
+    "web_bytes": 1945832,
+    "thumbnail_bytes": 21258,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 2,
+    "source_bytes": 2402825,
+    "web_bytes": 1986554,
+    "thumbnail_bytes": 20832,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 3,
+    "source_bytes": 2196365,
+    "web_bytes": 1852596,
+    "thumbnail_bytes": 19150,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 4,
+    "source_bytes": 2256159,
+    "web_bytes": 1914650,
+    "thumbnail_bytes": 20636,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 5,
+    "source_bytes": 2072013,
+    "web_bytes": 1731840,
+    "thumbnail_bytes": 18520,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 6,
+    "source_bytes": 2151118,
+    "web_bytes": 1826392,
+    "thumbnail_bytes": 19446,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 7,
+    "source_bytes": 2289026,
+    "web_bytes": 1949702,
+    "thumbnail_bytes": 21186,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 8,
+    "source_bytes": 2252985,
+    "web_bytes": 1897668,
+    "thumbnail_bytes": 19798,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 9,
+    "source_bytes": 2351364,
+    "web_bytes": 1960128,
+    "thumbnail_bytes": 20414,
+    "pixel_equal": true
+  },
+  {
+    "course": "INOVASI",
+    "slide": 10,
+    "source_bytes": 2188674,
+    "web_bytes": 1842418,
+    "thumbnail_bytes": 19492,
+    "pixel_equal": true
+  }
+]

@@ -1,12 +1,8 @@
-import { seminarDecks as seminarDecksS1 } from './seminar-ppg-data.js';
-import { seminarDecksS2 } from './seminar-ppg-data-s2.js';
+import { seminarDecks, initialDeckIndex, progressKey } from './seminar-ppg-library.js';
 import { seminarThumbMap } from './seminar-thumbs.js';
 
-// Deck 1-7: presentasi gambar dari Google Drive.
-// Deck 8-16: slide teks refleksi & karya inovasi (tanpa gambar).
-const seminarDecks = [...seminarDecksS1, ...seminarDecksS2];
-
 function thumbSrcFor(slide) {
+  if (slide.thumbnail) return slide.thumbnail;
   const match = slide.src.match(/thumbnail\?id=([\w-]+)/);
   const key = match ? match[1] : null;
   return (key && seminarThumbMap[key]) || slide.src;
@@ -32,7 +28,7 @@ const meetingPlan = [
 ];
 
 let initialized = false;
-let currentDeckIndex = 0;
+let currentDeckIndex = initialDeckIndex(window.location.search);
 let currentSlideIndex = 0;
 let touchStartX = null;
 
@@ -53,7 +49,7 @@ function getProgress() {
 function saveProgress() {
   try {
     const progress = getProgress();
-    progress[activeDeck().meeting] = currentSlideIndex;
+    progress[progressKey(activeDeck())] = currentSlideIndex;
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
   } catch (_) {
     // localStorage tidak tersedia (mode privat) — abaikan dengan tenang
@@ -61,7 +57,8 @@ function saveProgress() {
 }
 
 function savedSlideFor(meeting) {
-  const saved = getProgress()[meeting];
+  const deck = seminarDecks.find((item) => item.meeting === meeting);
+  const saved = getProgress()[deck ? progressKey(deck) : String(meeting)];
   return Number.isInteger(saved) && saved > 0 ? saved : 0;
 }
 
@@ -95,6 +92,10 @@ function playerElements() {
     previous: document.getElementById('seminarPrev'),
     next: document.getElementById('seminarNext'),
     fullscreen: document.getElementById('seminarFullscreen'),
+    hotspotToggle: document.getElementById('seminarHotspotToggle'),
+    notes: document.getElementById('seminarSpeakerNotes'),
+    notesText: document.getElementById('seminarNotesText'),
+    status: document.querySelector('.seminar-topbar-status'),
   };
 }
 
@@ -105,10 +106,11 @@ function isVisible(wrapper) {
 function buildMeetingLibrary(elements) {
   elements.meetings.replaceChildren();
 
-  meetingPlan.forEach((title, index) => {
+  meetingPlan.forEach((fallbackTitle, index) => {
     const meeting = index + 1;
     const deckIndex = seminarDecks.findIndex((deck) => deck.meeting === meeting);
     const available = deckIndex >= 0;
+    const title = available ? seminarDecks[deckIndex].title : fallbackTitle;
     const button = document.createElement('button');
     button.type = 'button';
     button.className = 'seminar-meeting';
@@ -177,10 +179,13 @@ function buildThumbnails(elements) {
 
 function renderHotspots(slide, elements) {
   elements.hotspots.replaceChildren();
+  elements.hotspotToggle.disabled = !slide.hotspots.length;
 
   slide.hotspots.forEach((hotspot) => {
     const control = hotspot.href ? document.createElement('a') : document.createElement('button');
     control.className = 'seminar-hotspot';
+    control.dataset.hotspotId = hotspot.id || '';
+    control.dataset.targetSlide = hotspot.targetSlide || '';
     control.setAttribute('aria-label', hotspot.label || 'Hotspot presentasi');
     control.title = hotspot.label || 'Hotspot presentasi';
     control.style.left = `${hotspot.x}%`;
@@ -252,6 +257,8 @@ function showSlide(index, elements = playerElements()) {
   elements.progress.style.width = `${((boundedIndex + 1) / deck.slides.length) * 100}%`;
   elements.previous.disabled = boundedIndex === 0;
   elements.next.disabled = boundedIndex === deck.slides.length - 1;
+  elements.notes.hidden = !slide.notes;
+  elements.notesText.textContent = slide.notes || '';
 
   if (slide.content) {
     // Slide teks: konten dirender langsung, tidak ada gambar Drive
@@ -274,7 +281,7 @@ function showSlide(index, elements = playerElements()) {
     if (active) thumbnail.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
   });
 
-  if (!slide.content && elements.image.currentSrc === slide.src && elements.image.complete && elements.image.naturalWidth > 0) {
+  if (!slide.content && elements.image.currentSrc === new URL(slide.src, document.baseURI).href && elements.image.complete && elements.image.naturalWidth > 0) {
     setSlideLoading(elements, false);
   }
 
@@ -287,6 +294,14 @@ function renderDeck(elements) {
   elements.title.textContent = deck.title;
   elements.subtitle.textContent = deck.subtitle;
   elements.meetingLabel.textContent = `Pertemuan ${twoDigits(deck.meeting)}`;
+  elements.thumbnails.setAttribute('aria-label', `Daftar slide ${deck.title}`);
+  elements.status.replaceChildren(document.createElement('span'), ` Pertemuan ${twoDigits(deck.meeting)} aktif`);
+  if (isVisible(elements.wrapper)) {
+    const url = new URL(window.location.href);
+    if (deck.course) url.searchParams.set('presentasi', deck.course.toLowerCase());
+    else url.searchParams.delete('presentasi');
+    history.replaceState(null, '', `${url.pathname}${url.search}#seminar-ppg`);
+  }
   elements.meetings.querySelectorAll('.seminar-meeting').forEach((button) => {
     const active = Number(button.dataset.meeting) === deck.meeting;
     button.classList.toggle('is-active', active);
@@ -332,6 +347,7 @@ async function toggleFullscreen(elements) {
 function updateFullscreenLabel(elements) {
   const active = document.fullscreenElement === elements.stageShell ||
     elements.stageShell.classList.contains('is-pseudo-fullscreen');
+  document.body.classList.toggle('is-seminar-fullscreen', active);
   elements.fullscreen.setAttribute(
     'aria-label',
     active ? 'Keluar dari layar penuh' : 'Tampilkan presentasi layar penuh'
@@ -359,6 +375,11 @@ export function initSeminarPpg() {
   elements.previous.addEventListener('click', () => showSlide(currentSlideIndex - 1, elements));
   elements.next.addEventListener('click', () => showSlide(currentSlideIndex + 1, elements));
   elements.fullscreen.addEventListener('click', () => toggleFullscreen(elements));
+  elements.hotspotToggle.addEventListener('click', () => {
+    const visible = elements.stage.classList.toggle('show-hotspots');
+    elements.hotspotToggle.setAttribute('aria-pressed', String(visible));
+    elements.hotspotToggle.setAttribute('aria-label', visible ? 'Sembunyikan area hyperlink pada slide' : 'Tampilkan area hyperlink pada slide');
+  });
   document.addEventListener('fullscreenchange', () => updateFullscreenLabel(elements));
 
   elements.stage.addEventListener('touchstart', (event) => {
@@ -376,6 +397,7 @@ export function initSeminarPpg() {
 
   document.addEventListener('keydown', (event) => {
     if (!isVisible(elements.wrapper)) return;
+    if (event.target?.closest('input, textarea, select, [contenteditable="true"]')) return;
     if (event.key === 'ArrowRight' || event.key === 'PageDown') {
       event.preventDefault();
       showSlide(currentSlideIndex + 1, elements);

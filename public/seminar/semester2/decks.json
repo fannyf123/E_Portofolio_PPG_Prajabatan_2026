@@ -1,0 +1,3339 @@
+{
+  "version": "final-guru-laki-laki",
+  "decks": [
+    {
+      "id": "meeting-08",
+      "meeting": 8,
+      "course": "PMAL",
+      "title": "Refleksi MK — Pembelajaran Mendalam dan Asesmen Lanjut SMK",
+      "subtitle": "Refleksi 4C dan analisis artefak · Semester II · 10 slide final",
+      "status": "available",
+      "revision": "4a7de58126ad",
+      "sourcePptx": "Refleksi PMAL - Guru Laki-laki - 16x9.pptx",
+      "slides": [
+        {
+          "number": 1,
+          "src": "seminar/semester2/assets/pmal/01-6248e033d7c4.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/01-6248e033d7c4.webp",
+          "alt": "Pembelajaran Mendalam dan Asesmen Lanjut SMK",
+          "title": "Pembelajaran Mendalam dan Asesmen Lanjut SMK",
+          "notes": "Mata Kuliah Pembelajaran Mendalam dan Asesmen Lanjut SMK membantu saya melihat bahwa keputusan mengajar perlu dimulai dari pemahaman terhadap kebutuhan murid. Saya perlu mengetahui apa yang sudah mereka kuasai, bagian mana yang masih menjadi hambatan, dan bukti apa yang menunjukkan perkembangannya. Informasi tersebut menentukan cara saya menjelaskan materi, memberikan bantuan, dan menilai hasil pekerjaan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.614583,
+              "y": 91.203704,
+              "width": 6.09375,
+              "height": 4.722222,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.385417,
+              "y": 62.5,
+              "width": 29.84375,
+              "height": 24.537037,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-2",
+              "x": 35.416667,
+              "y": 62.5,
+              "width": 29.0625,
+              "height": 24.537037,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Mulai refleksi 4C"
+            },
+            {
+              "id": "cover-3",
+              "x": 66.927083,
+              "y": 62.5,
+              "width": 29.739583,
+              "height": 24.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            }
+          ],
+          "sourceSha256": "6248e033d7c4e669dd4f395848a3a71c9492880ab463c297563448d865c79414"
+        },
+        {
+          "number": 2,
+          "src": "seminar/semester2/assets/pmal/02-e22abe6fb621.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/02-e22abe6fb621.webp",
+          "alt": "Produk yang benar perlu disertai pemahaman",
+          "title": "Produk yang benar perlu disertai pemahaman",
+          "notes": "Dalam konteks Gambar Teknik Manufaktur, kebutuhan itu terasa dekat. Murid dapat menghasilkan gambar atau model yang tampak benar, sementara alasan pemilihan fitur dan urutan kerjanya masih perlu diperiksa. Ada juga murid yang memahami penjelasan, lalu memerlukan pendampingan ketika mempraktikkannya. Dari sini saya belajar membaca kemampuan konsep dan keterampilan prosedural secara lebih teliti, sehingga bantuan yang diberikan sesuai dengan kebutuhan belajar.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.6875,
+              "y": 3.148148,
+              "width": 6.510417,
+              "height": 5.37037,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 71.510417,
+              "y": 91.388889,
+              "width": 7.291667,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.90625,
+              "y": 91.203704,
+              "width": 6.875,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.09375,
+              "y": 91.203704,
+              "width": 6.510417,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.895833,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "e22abe6fb6218eff1892cf7b4376462c1370471d1d78db90990df6259787ce75"
+        },
+        {
+          "number": 3,
+          "src": "seminar/semester2/assets/pmal/03-625d5d0049b8.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/03-625d5d0049b8.webp",
+          "alt": "Asesmen awal mengarahkan keputusan",
+          "title": "Asesmen awal mengarahkan keputusan",
+          "notes": "Hal tersebut terlihat dalam laporan UTS yang saya susun. Pada tugas itu, saya menganalisis kasus keberagaman murid dan merancang asesmen awal melalui beberapa bentuk bukti. Saya membedakan pemahaman konsep, keterampilan prosedural, serta kesiapan dan akses belajar. Bagian ini saya pilih sebagai artefak karena menunjukkan bahwa hasil asesmen perlu diterjemahkan menjadi keputusan. Murid yang memerlukan latihan prosedural mendapat dukungan yang berbeda dari murid yang membutuhkan penguatan konsep, sementara standar kompetensinya tetap jelas.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.822917,
+              "y": 91.574074,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 78.072917,
+              "y": 92.87037,
+              "width": 5.885417,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.697917,
+              "y": 92.685185,
+              "width": 5.416667,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.0625,
+              "y": 92.777778,
+              "width": 4.895833,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.958333,
+              "y": 92.592593,
+              "width": 4.635417,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "625d5d0049b892464fd46ed85fbfd3fe296a8c3490da1e3e80c472d8a3a662b1"
+        },
+        {
+          "number": 4,
+          "src": "seminar/semester2/assets/pmal/04-5034e53e46f5.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/04-5034e53e46f5.webp",
+          "alt": "DUP membuka akses menuju kompetensi",
+          "title": "DUP membuka akses menuju kompetensi",
+          "notes": "DUP, atau Desain Universal untuk Pembelajaran, membantu saya memahami cara menyediakan akses tersebut. Materi dapat disajikan melalui penjelasan, gambar, dan demonstrasi. Murid juga dapat menjelaskan pemahamannya secara lisan atau melalui bukti kerja yang sesuai dengan tujuan. Pilihan ini perlu dirancang sejak awal, sehingga murid mempunyai kesempatan untuk belajar dan menunjukkan kemampuannya. Saya tetap perlu memastikan bahwa pilihan media mendukung keterampilan yang memang harus dikuasai.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.520833,
+              "y": 90.833333,
+              "width": 6.71875,
+              "height": 4.907407,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "5034e53e46f5e45c2c38aad516312d43f7a1afb26c2123064335f008f67aa83a"
+        },
+        {
+          "number": 5,
+          "src": "seminar/semester2/assets/pmal/05-c9d32ade8f3a.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/05-c9d32ade8f3a.webp",
+          "alt": "Instrumen harus lengkap dan dapat digunakan",
+          "title": "Instrumen harus lengkap dan dapat digunakan",
+          "notes": "Tantangan yang saya temui dalam penyusunan perangkat adalah menjaga keseimbangan antara kelengkapan dan keterpakaian. Sebuah rubrik dapat terlihat rinci, lalu menjadi sulit digunakan ketika guru harus mendampingi banyak murid. Refleksi Topik 3.E membantu saya menelaah persoalan ini melalui kasus asesmen kejuruan. Saya belajar memilih indikator yang memberikan informasi paling berguna, menjelaskan bukti yang harus diamati, dan menyiapkan tindak lanjut yang sesuai. Artefak ini memperlihatkan perkembangan pemahaman saya tentang fungsi instrumen, bukan sekadar banyaknya aspek penilaian.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 76.40625,
+              "y": 91.574074,
+              "width": 6.197917,
+              "height": 5.092593,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-concept",
+              "x": 91.302083,
+              "y": 93.518519,
+              "width": 4.21875,
+              "height": 3.611111,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 95.0,
+              "y": 93.333333,
+              "width": 3.958333,
+              "height": 3.981481,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            },
+            {
+              "id": "footer-connection",
+              "x": 83.541667,
+              "y": 90.462963,
+              "width": 4.322917,
+              "height": 6.481481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 87.916667,
+              "y": 90.462963,
+              "width": 3.75,
+              "height": 6.481481,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            }
+          ],
+          "sourceSha256": "c9d32ade8f3ac9378381ba5ef974644f12130572314a04dc7a2ae2f6f6429142"
+        },
+        {
+          "number": 6,
+          "src": "seminar/semester2/assets/pmal/06-9cac5280657a.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/06-9cac5280657a.webp",
+          "alt": "Asesmen memberi arah sepanjang proses",
+          "title": "Asesmen memberi arah sepanjang proses",
+          "notes": "Asesmen sebagai pembelajaran, untuk pembelajaran, dan terhadap hasil pembelajaran kemudian saya pahami sebagai fungsi yang saling berhubungan. Murid dapat menggunakan checklist untuk memeriksa pekerjaannya sendiri. Saya dapat memakai checkpoint untuk menemukan kesalahan ketika masih ada waktu memperbaikinya. Pada akhir kegiatan, produk dan penjelasan murid digunakan untuk melihat ketercapaian kompetensi. Dengan alur seperti ini, penilaian memberikan arah bagi kegiatan belajar.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.791667,
+              "y": 91.296296,
+              "width": 5.364583,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.416667,
+              "y": 91.018519,
+              "width": 6.302083,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 82.03125,
+              "y": 90.925926,
+              "width": 5.625,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.96875,
+              "y": 90.925926,
+              "width": 5.260417,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.697917,
+              "y": 91.018519,
+              "width": 4.791667,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "9cac5280657a5babf239e0d3aaffef084e9d2bcdddb91066bf4da2121bdb1bde"
+        },
+        {
+          "number": 7,
+          "src": "seminar/semester2/assets/pmal/07-4b9b11bd8406.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/07-4b9b11bd8406.webp",
+          "alt": "TaRL dan CRT membantu saya memilih dukungan",
+          "title": "TaRL dan CRT membantu saya memilih dukungan",
+          "notes": "Pemahaman saya bertambah ketika mempelajari TaRL dan CRT. TaRL membantu saya menyesuaikan dukungan dengan kemampuan yang ditunjukkan murid pada saat itu. Pengelompokan perlu terbuka terhadap perubahan, sehingga murid tidak terus ditempatkan pada kategori yang sama. CRT mengingatkan saya untuk memperhatikan pengalaman dan bahasa yang sudah mereka kenal. Pengalaman tersebut dapat menjadi jalan masuk menuju konsep serta istilah teknis yang digunakan dalam dunia kerja.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.729167,
+              "y": 3.333333,
+              "width": 6.354167,
+              "height": 4.62963,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "4b9b11bd8406f5046fbf3c90737da1a4de8b3cdcd71c154913d310cdeb0e8030"
+        },
+        {
+          "number": 8,
+          "src": "seminar/semester2/assets/pmal/08-712190d6bb8d.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/08-712190d6bb8d.webp",
+          "alt": "Strategi dipilih melalui hubungan yang jelas",
+          "title": "Strategi dipilih melalui hubungan yang jelas",
+          "notes": "Pada sintesis Topik 4.D, saya memetakan hubungan antara asesmen awal, TaRL, CRT, model pembelajaran kontekstual, dan tindak lanjut. Saya memilih artefak ini karena alurnya menunjukkan alasan di balik pemilihan strategi. Kasus Pak Sapto menjadi bahan untuk memahami prinsipnya, kemudian saya memikirkan kemungkinan penerapannya pada bidang Teknik Mesin. Dari proses tersebut, saya belajar memilih model berdasarkan tujuan dan kesiapan murid. Demonstrasi, latihan terbimbing, atau proyek mempunyai fungsi yang berbeda dan perlu ditempatkan sesuai kebutuhan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 65.208333,
+              "y": 91.944444,
+              "width": 5.0,
+              "height": 3.981481,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.552083,
+              "y": 91.944444,
+              "width": 5.78125,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.489583,
+              "y": 91.759259,
+              "width": 6.614583,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.71875,
+              "y": 91.944444,
+              "width": 4.947917,
+              "height": 4.166667,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.59375,
+              "y": 91.851852,
+              "width": 4.635417,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "712190d6bb8d2345b110c9866fa28284a1dda6e4eb27df5f3c55a6dfd5c45a77"
+        },
+        {
+          "number": 9,
+          "src": "seminar/semester2/assets/pmal/09-f810225eebd2.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/09-f810225eebd2.webp",
+          "alt": "Saya menyiapkan bantuan berdasarkan bukti",
+          "title": "Saya menyiapkan bantuan berdasarkan bukti",
+          "notes": "Ke depan, saya ingin memulai pembelajaran dengan asesmen prasyarat yang singkat dan dapat ditindaklanjuti. Selama praktik, saya akan menyediakan checkpoint serta kesempatan revisi, kemudian membaca hasilnya untuk menentukan bantuan berikutnya. Saya juga perlu meninjau apakah instrumen yang digunakan benar-benar membantu saya mengambil keputusan. Melalui mata kuliah ini, saya belajar bahwa kualitas asesmen terlihat dari kejelasan informasi yang dihasilkan dan kegunaannya dalam memperbaiki pembelajaran.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.21875,
+              "y": 91.203704,
+              "width": 5.364583,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.052083,
+              "y": 91.296296,
+              "width": 6.458333,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.25,
+              "y": 91.296296,
+              "width": 6.25,
+              "height": 4.166667,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.395833,
+              "y": 91.203704,
+              "width": 6.09375,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.333333,
+              "y": 91.203704,
+              "width": 5.78125,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "f810225eebd21ad699c09eb85def6ad462442d2cb27400ddbc69fc353c444b60"
+        },
+        {
+          "number": 10,
+          "src": "seminar/semester2/assets/pmal/10-057a99422fe5.webp",
+          "thumbnail": "seminar/semester2/assets/pmal/thumbs/10-057a99422fe5.webp",
+          "alt": "Asesmen yang baik membantu saya mengambil keputusan",
+          "title": "Asesmen yang baik membantu saya mengambil keputusan",
+          "notes": "Ke depan, saya ingin memulai pembelajaran dengan asesmen prasyarat yang singkat dan dapat ditindaklanjuti. Selama praktik, saya akan menyediakan checkpoint serta kesempatan revisi, kemudian membaca hasilnya untuk menentukan bantuan berikutnya. Saya juga perlu meninjau apakah instrumen yang digunakan benar-benar membantu saya mengambil keputusan. Melalui mata kuliah ini, saya belajar bahwa kualitas asesmen terlihat dari kejelasan informasi yang dihasilkan dan kegunaannya dalam memperbaiki pembelajaran.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.541667,
+              "y": 93.796296,
+              "width": 5.625,
+              "height": 4.722222,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.479167,
+              "y": 88.888889,
+              "width": 6.666667,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.833333,
+              "y": 88.611111,
+              "width": 6.40625,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.875,
+              "y": 88.611111,
+              "width": 6.041667,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Concept · buka slide 4",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 92.65625,
+              "y": 88.703704,
+              "width": 5.885417,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "057a99422fe519a5c148c06360caaacfe40d4c926652b776628fcba0db3f28b0"
+        }
+      ],
+      "sections": {
+        "connection": 2,
+        "challenge": 5,
+        "concept": 4,
+        "change": 9
+      }
+    },
+    {
+      "id": "meeting-09",
+      "meeting": 9,
+      "course": "PPL",
+      "title": "Refleksi MK — Praktik Pengalaman Lapangan Mandiri",
+      "subtitle": "Refleksi 4C dan analisis artefak · Semester II · 10 slide final",
+      "status": "available",
+      "revision": "e26c9a4da2aa",
+      "sourcePptx": "Refleksi PPL - Guru Laki-laki - 16x9.pptx",
+      "slides": [
+        {
+          "number": 1,
+          "src": "seminar/semester2/assets/ppl/01-a9a4a88cd20c.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/01-a9a4a88cd20c.webp",
+          "alt": "Praktik Pengalaman Lapangan Mandiri",
+          "title": "Praktik Pengalaman Lapangan Mandiri",
+          "notes": "Dalam Mata Kuliah PPL Mandiri, saya menghubungkan pengetahuan yang dipelajari selama perkuliahan dengan tanggung jawab untuk menyiapkan pembelajaran di sekolah. Sebagai calon guru Teknik Mesin, saya perlu menguasai materi yang akan diajarkan sekaligus memikirkan cara murid mempelajarinya. Kesiapan tersebut terlihat dari tujuan yang saya tentukan, langkah kegiatan yang saya susun, serta cara saya memeriksa perkembangan belajar.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.6875,
+              "y": 90.277778,
+              "width": 6.354167,
+              "height": 5.0,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.229167,
+              "y": 60.648148,
+              "width": 29.375,
+              "height": 25.462963,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 67.1875,
+              "y": 60.648148,
+              "width": 29.479167,
+              "height": 25.462963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 36.145833,
+              "y": 66.388889,
+              "width": 5.729167,
+              "height": 10.277778,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 46.875,
+              "y": 66.111111,
+              "width": 5.729167,
+              "height": 9.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 35.833333,
+              "y": 76.388889,
+              "width": 6.25,
+              "height": 9.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 46.927083,
+              "y": 76.296296,
+              "width": 5.729167,
+              "height": 9.814815,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "a9a4a88cd20c2bd43064fcdae9516ec8b8bc67d248375bcceb3a89c31b268f91"
+        },
+        {
+          "number": 2,
+          "src": "seminar/semester2/assets/ppl/02-3aac2dce147e.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/02-3aac2dce147e.webp",
+          "alt": "Saya membedakan rencana dan pelaksanaan",
+          "title": "Saya membedakan rencana dan pelaksanaan",
+          "notes": "Refleksi saya pada bagian ini berangkat dari perangkat pembelajaran yang telah disusun dan kesiapan praktik yang dapat saya telaah. Pengalaman pelaksanaan perlu saya lengkapi dengan catatan kelas dan umpan balik pamong. Saya ingin menjaga agar penjelasan tentang rencana dan penjelasan tentang apa yang benar-benar terjadi di kelas tetap dapat dibedakan. Kebiasaan mencatat bukti menjadi bagian dari tanggung jawab profesional yang sedang saya bangun.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.416667,
+              "y": 91.574074,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "3aac2dce147ed8f63414273d4ee766c6b79b73dae85501463e7c58f657a11b10"
+        },
+        {
+          "number": 3,
+          "src": "seminar/semester2/assets/ppl/03-0e22982e3d43.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/03-0e22982e3d43.webp",
+          "alt": "Urutan belajar mengikuti prasyarat",
+          "title": "Urutan belajar mengikuti prasyarat",
+          "notes": "Dalam perangkat Gambar Teknik Manufaktur, saya menata hubungan antara sketch, model tiga dimensi, drawing, dan dokumen gambar kerja. Setiap tahap mempunyai prasyarat. Murid perlu memahami bidang serta hubungan geometris pada sketch sebelum menggunakan hasilnya untuk membentuk model. Selanjutnya, model digunakan untuk menyajikan gambar yang dapat dibaca orang lain. Dari penyusunan alur ini, saya belajar memperhatikan urutan belajar, bukan hanya daftar perintah yang harus disampaikan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 75.989583,
+              "y": 90.740741,
+              "width": 6.71875,
+              "height": 4.907407,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "0e22982e3d430d2f181da5aebc8cbf5dc8ec7b70a6c4aeaf5e56563d5ad606bd"
+        },
+        {
+          "number": 4,
+          "src": "seminar/semester2/assets/ppl/04-778fcf79be93.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/04-778fcf79be93.webp",
+          "alt": "RPP memperlihatkan keputusan perencanaan",
+          "title": "RPP memperlihatkan keputusan perencanaan",
+          "notes": "RPP praktik mandiri menjadi artefak yang saya gunakan untuk melihat kesiapan tersebut. Pada rancangan awal, materi Bushing dipakai untuk memperkenalkan alur pemodelan sampai dokumentasi. Rancangan dokumentasi C-Clamp memperlihatkan kebutuhan yang lebih lanjut, seperti keterkaitan gambar rakitan, daftar komponen, dan penyajian dokumen. Saya memandang perangkat itu sebagai bukti kemampuan merencanakan. Untuk menilai keberhasilan pelaksanaannya, saya tetap memerlukan produk murid, catatan proses, dan evaluasi terhadap kegiatan yang telah berlangsung.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.114583,
+              "y": 2.962963,
+              "width": 7.239583,
+              "height": 4.907407,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.729167,
+              "y": 91.388889,
+              "width": 7.5,
+              "height": 3.981481,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.4375,
+              "y": 91.111111,
+              "width": 6.927083,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 85.520833,
+              "y": 91.111111,
+              "width": 6.5625,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 91.203704,
+              "width": 5.0,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "778fcf79be934735538d566203e8ee2882da47c0eeaebc7cc909b018daafe666"
+        },
+        {
+          "number": 5,
+          "src": "seminar/semester2/assets/ppl/05-a617795dbae5.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/05-a617795dbae5.webp",
+          "alt": "Alur yang rapi perlu sesuai kebutuhan murid",
+          "title": "Alur yang rapi perlu sesuai kebutuhan murid",
+          "notes": "Tantangan yang perlu saya perhatikan adalah kesesuaian antara alur yang terlihat rapi di dalam RPP dan kebutuhan murid selama praktik. Sebuah demonstrasi dapat terlalu cepat bagi murid yang masih memahami langkah dasar. Bantuan yang diberikan terlalu lengkap juga dapat mengurangi kesempatan murid menemukan penyebab kesalahan. Karena itu, saya perlu menyiapkan cara memeriksa pemahaman sebelum melanjutkan, menentukan bagian yang memerlukan contoh, dan memberi ruang bagi murid untuk mencoba sendiri.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.291667,
+              "y": 86.574074,
+              "width": 6.041667,
+              "height": 4.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.239583,
+              "y": 92.12963,
+              "width": 5.989583,
+              "height": 4.074074,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.895833,
+              "y": 91.944444,
+              "width": 5.572917,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.083333,
+              "y": 91.944444,
+              "width": 5.15625,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.010417,
+              "y": 91.944444,
+              "width": 4.84375,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "a617795dbae5d0083cf88c32c6834665607bb2a40eae1f20e348e1fd68b91c86"
+        },
+        {
+          "number": 6,
+          "src": "seminar/semester2/assets/ppl/06-6ed96319cd18.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/06-6ed96319cd18.webp",
+          "alt": "Scaffolding diberikan bertahap",
+          "title": "Scaffolding diberikan bertahap",
+          "notes": "Konsep scaffolding membantu saya menyusun bantuan secara bertahap. Saya dapat memulai dengan pertanyaan tentang bagian yang sudah dikerjakan, lalu memberikan petunjuk yang lebih spesifik ketika diperlukan. Bantuan tersebut perlu dikurangi setelah murid mampu melanjutkan pekerjaannya. Asesmen formatif melalui checkpoint membantu saya mengetahui kapan dukungan perlu ditambah dan kapan murid dapat diberi tantangan berikutnya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.479167,
+              "y": 90.092593,
+              "width": 6.770833,
+              "height": 5.0,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "6ed96319cd18464264bd892db6409da0ea764c8eaf5a8a3811c69272140b7946"
+        },
+        {
+          "number": 7,
+          "src": "seminar/semester2/assets/ppl/07-85856858a83d.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/07-85856858a83d.webp",
+          "alt": "Empat kompetensi saling mendukung",
+          "title": "Empat kompetensi saling mendukung",
+          "notes": "Materi refleksi akhir PPL juga membantu saya melihat hubungan antara kompetensi pedagogik, profesional, sosial, dan kepribadian. Ketepatan penjelasan materi berkaitan dengan kompetensi profesional. Pemilihan bantuan dan asesmen berkaitan dengan kompetensi pedagogik. Komunikasi dengan murid serta rekan sekolah membutuhkan kompetensi sosial. Cara saya menerima koreksi dan mengelola respons diri juga menjadi bagian dari perkembangan pribadi sebagai guru.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.5625,
+              "y": 88.888889,
+              "width": 6.458333,
+              "height": 5.092593,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 65.9375,
+              "y": 89.074074,
+              "width": 6.145833,
+              "height": 4.074074,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 72.604167,
+              "y": 88.796296,
+              "width": 5.520833,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 78.854167,
+              "y": 88.981481,
+              "width": 5.0,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 84.739583,
+              "y": 88.981481,
+              "width": 4.6875,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "85856858a83d5de207b486e227d8a7d89f7b2b6375667aaa82c49785df0eff21"
+        },
+        {
+          "number": 8,
+          "src": "seminar/semester2/assets/ppl/08-e18ca87ca324.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/08-e18ca87ca324.webp",
+          "alt": "Refleksi praktik membutuhkan kejadian spesifik",
+          "title": "Refleksi praktik membutuhkan kejadian spesifik",
+          "notes": "Lembar refleksi praktik menjadi artefak berikutnya yang perlu saya lengkapi berdasarkan pelaksanaan. Pertanyaan tentang apersepsi, kegiatan yang berhasil dan belum berhasil, respons murid, serta umpan balik pamong membantu saya mengarahkan pengamatan. Saya ingin mengisinya dengan kejadian yang spesifik. Misalnya, ketika sebuah langkah perlu diperbaiki, saya perlu mencatat bagian yang menjadi kendala, tindakan yang dipilih, dan bukti yang menunjukkan perubahan setelahnya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.375,
+              "y": 90.925926,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 76.666667,
+              "y": 91.203704,
+              "width": 5.364583,
+              "height": 3.888889,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.822917,
+              "y": 90.925926,
+              "width": 6.197917,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.708333,
+              "y": 91.018519,
+              "width": 5.9375,
+              "height": 4.259259,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 90.925926,
+              "width": 5.625,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "e18ca87ca324e4d5f79840cbbeb71f6c908e01161c2926fa5e20d2fa6dbb54bd"
+        },
+        {
+          "number": 9,
+          "src": "seminar/semester2/assets/ppl/09-19810d3ccf52.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/09-19810d3ccf52.webp",
+          "alt": "Saya meninjau satu perbaikan setelah praktik",
+          "title": "Saya meninjau satu perbaikan setelah praktik",
+          "notes": "Dari proses ini, saya memahami bahwa kemandirian mengajar membutuhkan kemampuan mengambil keputusan dan kesediaan mengevaluasinya bersama pihak yang mendampingi. Saya ingin membiasakan pencatatan singkat setelah praktik, memilih satu perbaikan yang paling diperlukan, lalu memeriksa pengaruhnya pada kegiatan berikutnya. Dalam pembelajaran CAD, perhatian saya akan diarahkan pada kejelasan demonstrasi, checkpoint, pengelolaan file, serta kualitas umpan balik. Dengan cara tersebut, refleksi dapat membantu saya memperbaiki keputusan mengajar secara bertahap.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.322917,
+              "y": 3.333333,
+              "width": 7.083333,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "19810d3ccf52249b941c63dd5252f28fcca459cb8088ea2a27b5920ad6cb28a4"
+        },
+        {
+          "number": 10,
+          "src": "seminar/semester2/assets/ppl/10-cfbc6f32b274.webp",
+          "thumbnail": "seminar/semester2/assets/ppl/thumbs/10-cfbc6f32b274.webp",
+          "alt": "Kemandirian mengajar disertai evaluasi",
+          "title": "Kemandirian mengajar disertai evaluasi",
+          "notes": "Dari proses ini, saya memahami bahwa kemandirian mengajar membutuhkan kemampuan mengambil keputusan dan kesediaan mengevaluasinya bersama pihak yang mendampingi. Saya ingin membiasakan pencatatan singkat setelah praktik, memilih satu perbaikan yang paling diperlukan, lalu memeriksa pengaruhnya pada kegiatan berikutnya. Dalam pembelajaran CAD, perhatian saya akan diarahkan pada kejelasan demonstrasi, checkpoint, pengelolaan file, serta kualitas umpan balik. Dengan cara tersebut, refleksi dapat membantu saya memperbaiki keputusan mengajar secara bertahap.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.5625,
+              "y": 2.87037,
+              "width": 6.302083,
+              "height": 4.722222,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.125,
+              "y": 91.666667,
+              "width": 6.145833,
+              "height": 3.981481,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Connection · buka slide 3",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.375,
+              "y": 91.388889,
+              "width": 6.822917,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Challenge · buka slide 5",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.197917,
+              "y": 91.388889,
+              "width": 6.458333,
+              "height": 4.444444,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Concept · buka slide 6",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.010417,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "cfbc6f32b27421ccfe4fdcda37a4ac38878c0b925520a8c3308f12201437c39c"
+        }
+      ],
+      "sections": {
+        "connection": 3,
+        "challenge": 5,
+        "concept": 6,
+        "change": 9
+      }
+    },
+    {
+      "id": "meeting-10",
+      "meeting": 10,
+      "course": "KEPEMIMPINAN",
+      "title": "Refleksi MK — Projek Kepemimpinan",
+      "subtitle": "Refleksi 4C dan analisis artefak · Semester II · 10 slide final",
+      "status": "available",
+      "revision": "c9180612973b",
+      "sourcePptx": "Refleksi KEPEMIMPINAN - Guru Laki-laki - 16x9.pptx",
+      "slides": [
+        {
+          "number": 1,
+          "src": "seminar/semester2/assets/kepemimpinan/01-05bf77a871f9.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/01-05bf77a871f9.webp",
+          "alt": "Projek Kepemimpinan",
+          "title": "Projek Kepemimpinan",
+          "notes": "Melalui Mata Kuliah Projek Kepemimpinan, saya belajar memikirkan kontribusi seorang guru di luar kegiatan mengajar di kelas. Guru dapat terlibat dalam pengembangan program yang menjawab kebutuhan lingkungan, menggunakan keahliannya, dan bekerja bersama pihak lain. Untuk menjalankan peran itu, saya perlu belajar mendengarkan kebutuhan, menentukan prioritas, dan menyusun kegiatan yang dapat dipertanggungjawabkan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.104167,
+              "y": 90.462963,
+              "width": 6.875,
+              "height": 5.0,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 2.708333,
+              "y": 63.148148,
+              "width": 34.791667,
+              "height": 24.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 68.229167,
+              "y": 63.148148,
+              "width": 29.427083,
+              "height": 24.074074,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 43.177083,
+              "y": 68.148148,
+              "width": 8.75,
+              "height": 7.314815,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 56.770833,
+              "y": 68.055556,
+              "width": 9.583333,
+              "height": 6.944444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 40.104167,
+              "y": 79.074074,
+              "width": 9.791667,
+              "height": 7.5,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 56.770833,
+              "y": 78.888889,
+              "width": 9.6875,
+              "height": 7.685185,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "05bf77a871f943925b2305c562f4a9ff40220d738effc86c56242dc9a6aaa126"
+        },
+        {
+          "number": 2,
+          "src": "seminar/semester2/assets/kepemimpinan/02-cb262b03cdfe.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/02-cb262b03cdfe.webp",
+          "alt": "Keahlian Teknik Mesin dapat membantu komunitas",
+          "title": "Keahlian Teknik Mesin dapat membantu komunitas",
+          "notes": "Pemahaman tersebut saya hubungkan dengan penyusunan rancangan Jawa Edu Culture untuk Komunitas Elingo Jogja. Program ini mengembangkan gagasan media permainan edukatif budaya Jawa melalui kemampuan desain dan fabrikasi digital. Bagi saya, konteks tersebut memperlihatkan hubungan antara bidang Teknik Mesin dan kebutuhan pendidikan masyarakat. Keahlian teknis dapat digunakan untuk membuat media yang membantu kegiatan belajar, dengan tetap menempatkan pengetahuan budaya komunitas sebagai acuan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.125,
+              "y": 94.166667,
+              "width": 5.3125,
+              "height": 4.444444,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "cb262b03cdfe4fef7586f2bb5bdd672478e6466b467467267a4991f3ce827ff0"
+        },
+        {
+          "number": 3,
+          "src": "seminar/semester2/assets/kepemimpinan/03-f0637a718694.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/03-f0637a718694.webp",
+          "alt": "Jawa Edu Culture: pilihan produk mempunyai alasan",
+          "title": "Jawa Edu Culture: pilihan produk mempunyai alasan",
+          "notes": "Dalam proposal, gagasan itu diarahkan pada Ular Tangga Wayang Pandawa, Ludo Bidak Punakawan, dan Puzzle Aksara Jawa. Saya belajar bahwa pemilihan produk perlu mempunyai alasan yang jelas. Media harus sesuai dengan pengguna, mudah dipahami, aman, dan dapat digunakan kembali. Ketertarikan terhadap teknologi produksi perlu disertai pemeriksaan kesiapan bahan, fasilitas, serta pihak yang akan menggunakannya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.041667,
+              "y": 91.944444,
+              "width": 7.239583,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "f0637a71869498d97cee464f8d8fbe63663ed80c8bf25bdc9428e2de244e354c"
+        },
+        {
+          "number": 4,
+          "src": "seminar/semester2/assets/kepemimpinan/04-e48fe74b066d.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/04-e48fe74b066d.webp",
+          "alt": "Gagasan perlu sesuai sumber daya",
+          "title": "Gagasan perlu sesuai sumber daya",
+          "notes": "Tantangan dalam perencanaan adalah menjaga agar gagasan tetap dapat dilaksanakan. Ketika sebuah program memiliki banyak kemungkinan pengembangan, lingkupnya mudah melebar. Saya perlu menelaah kembali tujuan, sumber daya, waktu, dan bentuk manfaat yang ingin dicapai. Pembagian peran juga perlu dijelaskan agar pekerjaan tidak bergantung pada satu orang dan setiap bagian memiliki tanggung jawab yang dapat ditelusuri.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.302083,
+              "y": 92.407407,
+              "width": 6.614583,
+              "height": 5.0,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 78.802083,
+              "y": 93.055556,
+              "width": 5.572917,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 84.21875,
+              "y": 92.777778,
+              "width": 5.0,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.166667,
+              "y": 92.777778,
+              "width": 4.583333,
+              "height": 4.351852,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.59375,
+              "y": 92.777778,
+              "width": 4.322917,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "e48fe74b066d5cb1ba99c43c3fecd590db0cc4dad2cb92508ffdd1e4b79ae1f0"
+        },
+        {
+          "number": 5,
+          "src": "seminar/semester2/assets/kepemimpinan/05-623685d07760.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/05-623685d07760.webp",
+          "alt": "Tujuan SMART memberi arah kerja",
+          "title": "Tujuan SMART memberi arah kerja",
+          "notes": "Materi SMART Goals membantu saya menyusun tujuan yang lebih terarah. Tujuan perlu jelas, mempunyai indikator, sesuai dengan kemampuan pelaksana, relevan dengan kebutuhan, dan memiliki batas waktu. Kerangka Why–How–What membantu saya memeriksa alasan program sebelum menentukan bentuk kegiatan. Saya belajar memulai dari kebutuhan yang ingin dijawab, kemudian memilih cara yang memungkinkan kebutuhan itu ditangani.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 69.479167,
+              "y": 90.462963,
+              "width": 5.729167,
+              "height": 4.62963,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 77.916667,
+              "y": 90.925926,
+              "width": 4.895833,
+              "height": 3.611111,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.75,
+              "y": 90.740741,
+              "width": 4.635417,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 89.322917,
+              "y": 90.740741,
+              "width": 4.270833,
+              "height": 3.981481,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.583333,
+              "y": 90.648148,
+              "width": 4.114583,
+              "height": 4.166667,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "623685d0776022fe41a1e5cca5441d553555b4e478b330b7e565b1fb9093e490"
+        },
+        {
+          "number": 6,
+          "src": "seminar/semester2/assets/kepemimpinan/06-5681d9e4386e.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/06-5681d9e4386e.webp",
+          "alt": "Proposal menghubungkan tahapan dan evaluasi",
+          "title": "Proposal menghubungkan tahapan dan evaluasi",
+          "notes": "Proposal Jawa Edu Culture saya pilih sebagai artefak utama karena memperlihatkan hubungan tersebut. Di dalamnya terdapat pilihan produk, tahapan pengembangan, pembagian peran, rencana anggaran, risiko, serta bentuk evaluasi. Bagian yang penting bagi refleksi saya adalah urutan penyusunan konsep, pembuatan prototipe, uji penggunaan, dan revisi. Urutan ini mengingatkan saya untuk menyediakan kesempatan menerima masukan sebelum sebuah produk dianggap layak.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.427083,
+              "y": 89.907407,
+              "width": 6.5625,
+              "height": 5.462963,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "5681d9e4386ecbc7436cba300fb3cc8a940e749b8e972f2fa9a38f85d542bc0a"
+        },
+        {
+          "number": 7,
+          "src": "seminar/semester2/assets/kepemimpinan/07-b4417ff41af7.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/07-b4417ff41af7.webp",
+          "alt": "Keberlanjutan disiapkan sejak awal",
+          "title": "Keberlanjutan disiapkan sejak awal",
+          "notes": "Saya juga melihat bahwa keberlanjutan perlu dirancang sejak awal. Media yang diserahkan kepada komunitas membutuhkan cara penggunaan, perawatan, penyimpanan, dan penanggung jawab. Karena itu, proposal memuat rancangan panduan, pencatatan produksi, perhitungan biaya, serta serah terima. Melalui bagian ini, saya belajar bahwa keberhasilan program perlu dilihat dari kemampuan mitra melanjutkan manfaatnya setelah kegiatan tim berakhir.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.0625,
+              "y": 92.777778,
+              "width": 5.625,
+              "height": 4.722222,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "b4417ff41af7c07067b6d346471ac99a0dffcedf96dd3651189cd8fc84612eac"
+        },
+        {
+          "number": 8,
+          "src": "seminar/semester2/assets/kepemimpinan/08-927f4f4a0c7b.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/08-927f4f4a0c7b.webp",
+          "alt": "Target program masih menjadi arah kerja",
+          "title": "Target program masih menjadi arah kerja",
+          "notes": "Untuk tahap implementasi, saya perlu melengkapi refleksi dengan pengalaman yang benar-benar terjadi. Target di dalam proposal masih merupakan arah kerja. Jurnal mingguan nantinya perlu menunjukkan kontribusi saya, keputusan yang saya ambil, kesulitan yang muncul, dan penyesuaian setelah menerima masukan. Saya ingin memakai kebiasaan proaktif, mendengarkan sebelum menanggapi, serta kerja sama sebagai dasar untuk membaca pengalaman tersebut.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.239583,
+              "y": 3.055556,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 75.104167,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.302083,
+              "y": 91.203704,
+              "width": 6.041667,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.395833,
+              "y": 91.203704,
+              "width": 5.729167,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.28125,
+              "y": 91.111111,
+              "width": 5.520833,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "927f4f4a0c7bdc08efa6a809d88270e78a2f0c4f42bd5aa7e6b9e50eae0ec484"
+        },
+        {
+          "number": 9,
+          "src": "seminar/semester2/assets/kepemimpinan/09-dd7ed11889f2.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/09-dd7ed11889f2.webp",
+          "alt": "Saya mengelola prioritas dan keputusan bersama",
+          "title": "Saya mengelola prioritas dan keputusan bersama",
+          "notes": "Perubahan yang ingin saya bawa dari mata kuliah ini adalah kebiasaan menyusun kegiatan dengan prioritas dan tanggung jawab yang lebih jelas. Saya akan mendahulukan kebutuhan pengguna, mencatat keputusan bersama, dan memeriksa kesesuaian rencana dengan sumber daya yang tersedia. Dalam peran saya sebagai guru, kebiasaan itu dapat diterapkan saat mengelola projek pembelajaran maupun kegiatan sekolah. Saya ingin berkontribusi melalui program yang dapat dijalankan, dievaluasi, dan dilanjutkan oleh pihak yang menerima manfaatnya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.760417,
+              "y": 3.240741,
+              "width": 6.770833,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "dd7ed11889f24ffb32da446c1b1b8a8e2a5bf691629c051d61c6569915dcbde0"
+        },
+        {
+          "number": 10,
+          "src": "seminar/semester2/assets/kepemimpinan/10-f535069382c4.webp",
+          "thumbnail": "seminar/semester2/assets/kepemimpinan/thumbs/10-f535069382c4.webp",
+          "alt": "Kepemimpinan membantu manfaat terus digunakan",
+          "title": "Kepemimpinan membantu manfaat terus digunakan",
+          "notes": "Perubahan yang ingin saya bawa dari mata kuliah ini adalah kebiasaan menyusun kegiatan dengan prioritas dan tanggung jawab yang lebih jelas. Saya akan mendahulukan kebutuhan pengguna, mencatat keputusan bersama, dan memeriksa kesesuaian rencana dengan sumber daya yang tersedia. Dalam peran saya sebagai guru, kebiasaan itu dapat diterapkan saat mengelola projek pembelajaran maupun kegiatan sekolah. Saya ingin berkontribusi melalui program yang dapat dijalankan, dievaluasi, dan dilanjutkan oleh pihak yang menerima manfaatnya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.96875,
+              "y": 92.777778,
+              "width": 5.0,
+              "height": 4.166667,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 76.09375,
+              "y": 87.87037,
+              "width": 4.6875,
+              "height": 3.888889,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 82.135417,
+              "y": 87.685185,
+              "width": 4.427083,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 88.125,
+              "y": 87.777778,
+              "width": 4.0625,
+              "height": 4.166667,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.802083,
+              "y": 87.685185,
+              "width": 3.854167,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "f535069382c426023fa61ccc50623f624206ee0f91efd1728fbcf4a4a2fd5181"
+        }
+      ],
+      "sections": {
+        "connection": 2,
+        "challenge": 4,
+        "concept": 5,
+        "change": 9
+      }
+    },
+    {
+      "id": "meeting-11",
+      "meeting": 11,
+      "course": "PSE",
+      "title": "Refleksi MK — Pembelajaran Sosial Emosional",
+      "subtitle": "Refleksi 4C dan analisis artefak · Semester II · 10 slide final",
+      "status": "available",
+      "revision": "f00c1187273a",
+      "sourcePptx": "Refleksi PSE - Guru Laki-laki - 16x9.pptx",
+      "slides": [
+        {
+          "number": 1,
+          "src": "seminar/semester2/assets/pse/01-41d6944ba9b6.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/01-41d6944ba9b6.webp",
+          "alt": "Pembelajaran Sosial Emosional",
+          "title": "Pembelajaran Sosial Emosional",
+          "notes": "Bapak/Ibu dan teman-teman, melalui Mata Kuliah Pembelajaran Sosial Emosional, saya belajar memperhatikan hubungan antara cara guru merespons murid dan cara murid menjalani pembelajaran. Dalam bidang Teknik Mesin, kita memiliki tuntutan yang jelas, seperti ketelitian, keselamatan, dan tanggung jawab terhadap hasil kerja. Untuk membantu murid memenuhi tuntutan itu, saya juga perlu memahami bagaimana mereka menghadapi kesulitan, meminta bantuan, dan menerima koreksi.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.875,
+              "y": 3.148148,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "cover-1",
+              "x": 2.864583,
+              "y": 61.574074,
+              "width": 30.989583,
+              "height": 25.462963,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-2",
+              "x": 36.458333,
+              "y": 61.574074,
+              "width": 28.541667,
+              "height": 25.462963,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Mulai refleksi 4C"
+            },
+            {
+              "id": "cover-3",
+              "x": 67.708333,
+              "y": 61.574074,
+              "width": 29.6875,
+              "height": 25.462963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            }
+          ],
+          "sourceSha256": "41d6944ba9b6de90217460ce9c3680a73b1ef5abc5b5bec2a8b76b516d6f8cc5"
+        },
+        {
+          "number": 2,
+          "src": "seminar/semester2/assets/pse/02-09a7b3b105e6.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/02-09a7b3b105e6.webp",
+          "alt": "Cara Saya Merespons Membentuk Proses Belajar",
+          "title": "Cara Saya Merespons Membentuk Proses Belajar",
+          "notes": "Pemahaman tersebut saya hubungkan dengan pembelajaran Gambar Teknik Manufaktur di laboratorium CAD. Ketika murid mengalami kesalahan pada model atau belum memahami langkah kerja, bantuan guru dapat menentukan apakah ia berani mencoba lagi atau justru memilih menunggu. Karena itu, saya perlu memperhatikan cara saya berbicara dan memberikan bantuan. Penjelasan yang tepat akan lebih mudah diterima ketika murid merasa dihargai dan mengetahui bahwa kesalahannya dapat diperbaiki.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.114583,
+              "y": 3.055556,
+              "width": 7.1875,
+              "height": 5.0,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.388889,
+              "width": 6.197917,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.927083,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.388889,
+              "width": 6.40625,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.166667,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "09a7b3b105e6b00723ba070058b16654b1dea4b993519ed25f3b17ae98993297"
+        },
+        {
+          "number": 3,
+          "src": "seminar/semester2/assets/pse/03-89e919c1f077.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/03-89e919c1f077.webp",
+          "alt": "Kasus Pak AZ: keputusan guru perlu terarah",
+          "title": "Kasus Pak AZ: keputusan guru perlu terarah",
+          "notes": "Salah satu tugas yang membantu saya memikirkan hal tersebut adalah analisis kasus Pak AZ pada Topik 1.B. Melalui kasus itu, saya menelaah dilema guru yang perlu menegakkan aturan sambil mengendalikan respons emosinya. Saya memahami bahwa perasaan marah dapat muncul ketika guru menghadapi perilaku yang mengganggu. Keputusan yang diambil setelahnya tetap perlu mempertimbangkan keselamatan, martabat murid, dan tujuan pendidikan. Tugas ini saya pilih sebagai artefak karena memperlihatkan pemahaman saya tentang hubungan antara kesadaran diri, pengelolaan emosi, dan keputusan profesional.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.1875,
+              "y": 90.37037,
+              "width": 6.197917,
+              "height": 5.092593,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 66.822917,
+              "y": 90.740741,
+              "width": 6.875,
+              "height": 4.166667,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 73.385417,
+              "y": 90.555556,
+              "width": 6.5625,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 79.6875,
+              "y": 90.648148,
+              "width": 6.145833,
+              "height": 4.444444,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 86.09375,
+              "y": 90.555556,
+              "width": 5.46875,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "89e919c1f077c2ede37e0c2e7560d4e59d3da83c8efde0ded3d3979398c80ecb"
+        },
+        {
+          "number": 4,
+          "src": "seminar/semester2/assets/pse/04-a7fd98912c9a.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/04-a7fd98912c9a.webp",
+          "alt": "PSE harus tampak dalam kegiatan",
+          "title": "PSE harus tampak dalam kegiatan",
+          "notes": "Tantangan berikutnya muncul ketika konsep PSE perlu diterjemahkan menjadi kegiatan pembelajaran. Menuliskan kompetensi sosial emosional pada RPP terasa lebih mudah daripada menjelaskan perilaku apa yang akan dilatih dan bagaimana guru mengamatinya. Saya perlu memastikan bahwa setiap kegiatan mempunyai tujuan yang jelas. Misalnya, check-in kesiapan harus membantu saya menentukan pendampingan, sedangkan kerja berpasangan perlu memberikan kesempatan kepada kedua murid untuk tetap belajar.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.854167,
+              "y": 91.481481,
+              "width": 5.0,
+              "height": 4.074074,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 71.09375,
+              "y": 91.666667,
+              "width": 5.416667,
+              "height": 3.796296,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 76.354167,
+              "y": 91.388889,
+              "width": 5.989583,
+              "height": 4.351852,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 82.083333,
+              "y": 91.388889,
+              "width": 5.9375,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 88.020833,
+              "y": 91.296296,
+              "width": 5.572917,
+              "height": 4.537037,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "a7fd98912c9a7b49dde8f77d9195c48dd5924a9a08c60c6627a1ce1c02af532e"
+        },
+        {
+          "number": 5,
+          "src": "seminar/semester2/assets/pse/05-a8787a40622b.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/05-a8787a40622b.webp",
+          "alt": "CASEL membantu saya membaca kebutuhan",
+          "title": "CASEL membantu saya membaca kebutuhan",
+          "notes": "Kerangka CASEL membantu saya menguraikan kebutuhan tersebut. Kesadaran diri berkaitan dengan mengenali kesiapan dan kesulitan. Manajemen diri membantu murid mengatur respons ketika menemui kendala. Kesadaran sosial dan keterampilan berelasi terlihat dalam cara mendengarkan serta memberikan bantuan. Pengambilan keputusan yang bertanggung jawab dapat dilatih ketika murid memeriksa bukti pada model sebelum menentukan langkah berikutnya. Dalam proses yang sama, saya sebagai guru juga perlu menunjukkan empati, kesadaran terhadap respons diri, kepedulian, dan penalaran kritis sebagaimana dibahas dalam EMC².",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.104167,
+              "y": 3.333333,
+              "width": 6.5625,
+              "height": 5.37037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.645833,
+              "y": 91.759259,
+              "width": 5.9375,
+              "height": 3.981481,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.6875,
+              "y": 91.574074,
+              "width": 6.770833,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.510417,
+              "y": 91.481481,
+              "width": 6.302083,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 92.916667,
+              "y": 91.388889,
+              "width": 6.041667,
+              "height": 4.722222,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "a8787a40622b444e35f7323d9882d767ba86f23abf1ddc8d7eaac158abcfd049"
+        },
+        {
+          "number": 6,
+          "src": "seminar/semester2/assets/pse/06-8dd03674abd9.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/06-8dd03674abd9.webp",
+          "alt": "Tool Post: PSE menyatu dengan praktik CAD",
+          "title": "Tool Post: PSE menyatu dengan praktik CAD",
+          "notes": "Pemahaman itu saya tuangkan dalam RPP integrasi Experiential Learning dan PSE pada materi Tool Post. Di dalamnya, saya merancang peran operator dan pengamat agar bantuan teman tidak mengambil alih pekerjaan. Saya juga memasukkan strategi JEDA ketika murid menghadapi error. Melalui siklus pengalaman, refleksi, pemahaman konsep, dan percobaan kembali, murid diarahkan untuk mengenali penyebab kesulitan serta memilih perbaikan. RPP ini menjadi artefak yang penting karena memperlihatkan cara saya menghubungkan konsep PSE dengan tindakan yang dapat dilakukan dalam praktik CAD.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.072917,
+              "y": 3.703704,
+              "width": 5.3125,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.90625,
+              "y": 91.574074,
+              "width": 6.145833,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.052083,
+              "y": 91.388889,
+              "width": 6.666667,
+              "height": 4.444444,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.71875,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 4.259259,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.166667,
+              "y": 91.481481,
+              "width": 4.6875,
+              "height": 4.351852,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "8dd03674abd952c52163376cbb76e2897aaf94b1e9e70a7afa7c347e50666c00"
+        },
+        {
+          "number": 7,
+          "src": "seminar/semester2/assets/pse/07-219b33abd5b4.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/07-219b33abd5b4.webp",
+          "alt": "Rancangan perlu diperiksa melalui pelaksanaan",
+          "title": "Rancangan perlu diperiksa melalui pelaksanaan",
+          "notes": "Dari artefak tersebut, saya melihat bahwa kualitas rancangan perlu diperiksa melalui pelaksanaannya. Kegiatan yang sudah tertulis belum menunjukkan bagaimana respons murid atau apakah waktu yang disediakan memadai. Karena itu, saya ingin menggunakan catatan proses dan refleksi murid untuk meninjau kegiatan yang benar-benar membantu. Saya perlu memberi perhatian pada cara meminta bantuan, penerimaan terhadap umpan balik, dan keputusan perbaikan yang dapat dijelaskan oleh murid.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.583333,
+              "y": 3.518519,
+              "width": 6.71875,
+              "height": 4.62963,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.388889,
+              "width": 6.197917,
+              "height": 4.259259,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.270833,
+              "y": 91.296296,
+              "width": 6.822917,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.296296,
+              "width": 6.40625,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.791667,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "219b33abd5b483022fe1bd95e03a3cc7fe9a35b0c3acb1aefe9466e11d7ea3bb"
+        },
+        {
+          "number": 8,
+          "src": "seminar/semester2/assets/pse/08-626de0f29fac.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/08-626de0f29fac.webp",
+          "alt": "School well-being memperluas perhatian saya",
+          "title": "School well-being memperluas perhatian saya",
+          "notes": "Tugas tentang school well-being kemudian memperluas perhatian saya. Rasa aman untuk belajar juga berkaitan dengan akses perangkat, hubungan di kelas, kesempatan untuk berkontribusi, serta kondisi fisik dan emosional. Melalui tugas 4.E, saya belajar bahwa dukungan kepada murid membutuhkan kerja sama sesuai peran masing-masing. Guru mata pelajaran, wali kelas, guru BK, dan teknisi laboratorium dapat membantu pada kebutuhan yang berbeda.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.697917,
+              "y": 92.685185,
+              "width": 4.739583,
+              "height": 3.703704,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.5,
+              "y": 92.685185,
+              "width": 5.260417,
+              "height": 3.611111,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 77.5,
+              "y": 92.407407,
+              "width": 5.729167,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 83.020833,
+              "y": 92.407407,
+              "width": 5.364583,
+              "height": 4.074074,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 89.270833,
+              "y": 92.407407,
+              "width": 4.270833,
+              "height": 4.166667,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "626de0f29facf6fb255f38a7bbbcfc5fee3106e284ac8e06851978431d16f727"
+        },
+        {
+          "number": 9,
+          "src": "seminar/semester2/assets/pse/09-f17a5a444c4d.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/09-f17a5a444c4d.webp",
+          "alt": "Saya membiasakan respons yang lebih terarah",
+          "title": "Saya membiasakan respons yang lebih terarah",
+          "notes": "Perubahan yang ingin saya bawa ke pembelajaran adalah membiasakan respons yang lebih terarah. Saya akan memberi waktu kepada murid untuk menjelaskan kesulitannya, menggunakan pertanyaan penuntun sebelum membetulkan pekerjaannya, dan menyampaikan koreksi pada tindakan atau produk yang perlu diperbaiki. Saya juga ingin meninjau respons saya sendiri setelah mengajar. Dengan kebiasaan tersebut, saya dapat menjaga standar Teknik Mesin sambil membangun hubungan yang membantu murid belajar dengan lebih mandiri dan bertanggung jawab.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.84375,
+              "y": 3.611111,
+              "width": 6.822917,
+              "height": 4.907407,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.481481,
+              "width": 6.25,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.270833,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.296296,
+              "width": 6.458333,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.114583,
+              "y": 91.388889,
+              "width": 4.84375,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "f17a5a444c4dda80a66add5db543ad7c228c9c091d339164405b3993279813a8"
+        },
+        {
+          "number": 10,
+          "src": "seminar/semester2/assets/pse/10-97a24df608f6.webp",
+          "thumbnail": "seminar/semester2/assets/pse/thumbs/10-97a24df608f6.webp",
+          "alt": "Standar teknis dan relasi aman berjalan bersama",
+          "title": "Standar teknis dan relasi aman berjalan bersama",
+          "notes": "Perubahan yang ingin saya bawa ke pembelajaran adalah membiasakan respons yang lebih terarah. Saya akan memberi waktu kepada murid untuk menjelaskan kesulitannya, menggunakan pertanyaan penuntun sebelum membetulkan pekerjaannya, dan menyampaikan koreksi pada tindakan atau produk yang perlu diperbaiki. Saya juga ingin meninjau respons saya sendiri setelah mengajar. Dengan kebiasaan tersebut, saya dapat menjaga standar Teknik Mesin sambil membangun hubungan yang membantu murid belajar dengan lebih mandiri dan bertanggung jawab.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.395833,
+              "y": 3.611111,
+              "width": 5.9375,
+              "height": 4.62963,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.84375,
+              "y": 91.481481,
+              "width": 6.614583,
+              "height": 4.074074,
+              "targetSlide": 2,
+              "href": null,
+              "label": "Connection · buka slide 2",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 81.25,
+              "y": 91.203704,
+              "width": 6.302083,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Challenge · buka slide 4",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 87.239583,
+              "y": 91.203704,
+              "width": 6.041667,
+              "height": 4.537037,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Concept · buka slide 5",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.322917,
+              "y": 91.388889,
+              "width": 4.635417,
+              "height": 4.444444,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Change · buka slide 9",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "97a24df608f65009ed17229071d5a6697f959e1ccf17038065cbada0b9027b4e"
+        }
+      ],
+      "sections": {
+        "connection": 2,
+        "challenge": 4,
+        "concept": 5,
+        "change": 9
+      }
+    },
+    {
+      "id": "meeting-12",
+      "meeting": 12,
+      "course": "INOVASI",
+      "title": "Refleksi MK — Inovasi Kejuruan",
+      "subtitle": "Refleksi 4C dan analisis artefak · Semester II · 10 slide final",
+      "status": "available",
+      "revision": "9c0b6746b977",
+      "sourcePptx": "Refleksi INOVASI - Guru Laki-laki - 16x9.pptx",
+      "slides": [
+        {
+          "number": 1,
+          "src": "seminar/semester2/assets/inovasi/01-bd85500dfd0d.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/01-bd85500dfd0d.webp",
+          "alt": "Inovasi Kejuruan",
+          "title": "Inovasi Kejuruan",
+          "notes": "Mata Kuliah Inovasi Kejuruan membantu saya menilai gagasan dan teknologi dari kegunaannya. Dalam bidang Teknik Mesin, saya dapat mengembangkan produk, media, atau sistem digital dengan banyak fitur. Melalui mata kuliah ini, saya belajar menghubungkan kemampuan tersebut dengan kebutuhan pengguna serta cara memeriksa apakah gagasan yang dipilih benar-benar membantu.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "cover-1",
+              "x": 3.125,
+              "y": 62.5,
+              "width": 30.729167,
+              "height": 24.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Hubungan dengan profesi · buka Connection"
+            },
+            {
+              "id": "cover-3",
+              "x": 64.583333,
+              "y": 62.5,
+              "width": 32.03125,
+              "height": 24.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Tindak lanjut · buka Change"
+            },
+            {
+              "id": "cover-connection",
+              "x": 38.958333,
+              "y": 67.592593,
+              "width": 5.052083,
+              "height": 11.759259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka bagian refleksi",
+              "section": "connection"
+            },
+            {
+              "id": "cover-challenge",
+              "x": 49.583333,
+              "y": 67.592593,
+              "width": 11.041667,
+              "height": 7.5,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka bagian refleksi",
+              "section": "challenge"
+            },
+            {
+              "id": "cover-concept",
+              "x": 35.625,
+              "y": 80.092593,
+              "width": 10.989583,
+              "height": 6.018519,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka bagian refleksi",
+              "section": "concept"
+            },
+            {
+              "id": "cover-change",
+              "x": 50.416667,
+              "y": 79.814815,
+              "width": 11.822917,
+              "height": 6.296296,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka bagian refleksi",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "bd85500dfd0d492d972eb4dfdfecb784f28b288ca451434d6b11558d102169af"
+        },
+        {
+          "number": 2,
+          "src": "seminar/semester2/assets/inovasi/02-44ffda9d424b.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/02-44ffda9d424b.webp",
+          "alt": "PartsBox Rail: memilih ide dengan alasan",
+          "title": "PartsBox Rail: memilih ide dengan alasan",
+          "notes": "Proses itu terlihat pada tugas PartsBox Rail. Gagasannya adalah membuat panel penyortir komponen dari bahan bekas, dengan wadah yang dapat dilepas dan disusun kembali. Dalam penyusunan tugas, saya menelaah beberapa alternatif, mempertimbangkan bahan, mekanisme, keamanan, dan kemudahan pengujian. Bagian ini saya pilih sebagai artefak karena memperlihatkan bahwa pemilihan ide membutuhkan alasan, bukan hanya ketertarikan pada bentuk produk.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 91.197917,
+              "y": 3.148148,
+              "width": 5.885417,
+              "height": 4.351852,
+              "targetSlide": 3,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.364583,
+              "y": 91.203704,
+              "width": 7.708333,
+              "height": 4.537037,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 78.333333,
+              "y": 91.018519,
+              "width": 7.135417,
+              "height": 4.814815,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 85.833333,
+              "y": 91.203704,
+              "width": 6.458333,
+              "height": 4.62963,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.645833,
+              "y": 91.203704,
+              "width": 5.0,
+              "height": 4.62963,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "44ffda9d424b05b3b3892d2fcc6c79df61eebdc146644ce7a298bb69d384a407"
+        },
+        {
+          "number": 3,
+          "src": "seminar/semester2/assets/inovasi/03-9cb6b564bc03.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/03-9cb6b564bc03.webp",
+          "alt": "Sketsa dan simulasi belum membuktikan hasil uji",
+          "title": "Sketsa dan simulasi belum membuktikan hasil uji",
+          "notes": "PartsBox juga membantu saya membedakan rancangan dan hasil pengujian. Sketsa dapat menjelaskan bagaimana produk akan dibuat, sementara kapasitas beban, daya tahan, dan kemudahan penggunaan perlu diperiksa pada prototipe nyata. Angka simulasi yang ada dalam dokumen saya pahami sebagai bahan untuk merencanakan pengujian. Ketika menjelaskan manfaat produk, saya perlu menggunakan bukti yang sesuai dengan tahap pengembangannya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 71.666667,
+              "y": 91.574074,
+              "width": 6.09375,
+              "height": 4.62963,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 77.864583,
+              "y": 91.759259,
+              "width": 5.729167,
+              "height": 3.796296,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 83.072917,
+              "y": 91.574074,
+              "width": 5.625,
+              "height": 4.259259,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 88.229167,
+              "y": 91.481481,
+              "width": 5.677083,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 93.489583,
+              "y": 91.388889,
+              "width": 5.729167,
+              "height": 4.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "9cb6b564bc03eb0e2d10eef1d348998555dd29c4ff9949f703b88c92ac523818"
+        },
+        {
+          "number": 4,
+          "src": "seminar/semester2/assets/inovasi/04-2d4d12aa61ad.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/04-2d4d12aa61ad.webp",
+          "alt": "SIMAS menghubungkan prinsip dengan kebutuhan bengkel",
+          "title": "SIMAS menghubungkan prinsip dengan kebutuhan bengkel",
+          "notes": "Pemahaman tersebut saya lanjutkan melalui penerapan Design Thinking pada SIMAS, yaitu sistem manajemen alat bengkel SMK. Materi perkuliahan menggunakan contoh Mie Instan Premium untuk menjelaskan prosesnya. Saya menghubungkan prinsip yang dipelajari dengan kebutuhan pencatatan alat, peminjaman, pengembalian, perawatan, dan laporan dalam konteks bengkel Teknik Mesin.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.885417,
+              "y": 3.611111,
+              "width": 6.09375,
+              "height": 4.62963,
+              "targetSlide": 5,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 72.864583,
+              "y": 91.481481,
+              "width": 6.197917,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.25,
+              "y": 91.388889,
+              "width": 6.354167,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.296296,
+              "width": 4.84375,
+              "height": 4.62963,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "2d4d12aa61adaa790303ea09dff639a418f4a31351b8c0366c90a429fb647d8f"
+        },
+        {
+          "number": 5,
+          "src": "seminar/semester2/assets/inovasi/05-c7eb13b306b8.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/05-c7eb13b306b8.webp",
+          "alt": "Prototipe memperlihatkan pilihan desain",
+          "title": "Prototipe memperlihatkan pilihan desain",
+          "notes": "Dalam tugas SIMAS, bentuk prototipe membantu saya melihat bagaimana gagasan diterjemahkan menjadi alur yang dapat diperiksa. Pengguna mempunyai kebutuhan dan tanggung jawab yang berbeda, sehingga pembagian akses serta kejelasan status menjadi bagian dari desain. Artefak ini menunjukkan pilihan ruang lingkup dan hubungan antarfungsi sistem. Penilaian kegunaannya tetap memerlukan masukan dari pihak yang menjalankan pekerjaan tersebut.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 90.989583,
+              "y": 3.425926,
+              "width": 6.041667,
+              "height": 4.62963,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.53125,
+              "y": 91.759259,
+              "width": 5.677083,
+              "height": 3.796296,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.208333,
+              "y": 91.481481,
+              "width": 6.5625,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.770833,
+              "y": 91.574074,
+              "width": 6.09375,
+              "height": 4.166667,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.574074,
+              "width": 4.6875,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "c7eb13b306b837c298a411366e1759e4fc308ef23fbf0c0709052fd57ba6a591"
+        },
+        {
+          "number": 6,
+          "src": "seminar/semester2/assets/inovasi/06-e882bdb19f2a.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/06-e882bdb19f2a.webp",
+          "alt": "Fungsi berjalan belum menjamin mudah digunakan",
+          "title": "Fungsi berjalan belum menjamin mudah digunakan",
+          "notes": "Tantangan yang saya pelajari adalah membedakan pemeriksaan fungsi dengan uji pengguna. Sebuah menu dapat tersedia dan sebuah laporan dapat ditampilkan, lalu pengguna masih mengalami kebingungan ketika menyelesaikan tugasnya. Karena itu, pada tahap empati saya perlu mendengarkan pengalaman pengguna. Setelah merumuskan masalah, saya dapat membandingkan pilihan, membuat versi awal, meminta pengguna mencoba, dan menggunakan hasilnya untuk menentukan perbaikan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 87.96875,
+              "y": 90.648148,
+              "width": 7.8125,
+              "height": 5.555556,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Slide berikutnya"
+            }
+          ],
+          "sourceSha256": "e882bdb19f2ab0d7b62e2ed372f9c81591f9e3fa1b9b664f5952b88570f223e0"
+        },
+        {
+          "number": 7,
+          "src": "seminar/semester2/assets/inovasi/07-218e286264e2.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/07-218e286264e2.webp",
+          "alt": "Design Thinking memberi alur pengembangan",
+          "title": "Design Thinking memberi alur pengembangan",
+          "notes": "Design Thinking memberi saya alur untuk melakukan proses tersebut. Memahami pengguna membantu saya menentukan kebutuhan. Perumusan masalah menjaga agar pengembangan mempunyai fokus. Pengembangan ide dan prototipe memberi kesempatan untuk mencoba pilihan, sedangkan pengujian menyediakan masukan bagi revisi. Saya belajar bahwa tahapan ini dapat berulang ketika ditemukan kebutuhan atau kendala yang belum terjawab.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 92.552083,
+              "y": 91.296296,
+              "width": 6.354167,
+              "height": 5.0,
+              "targetSlide": 8,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 67.291667,
+              "y": 91.666667,
+              "width": 5.9375,
+              "height": 3.981481,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 73.229167,
+              "y": 91.388889,
+              "width": 6.666667,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 80.0,
+              "y": 91.666667,
+              "width": 6.197917,
+              "height": 4.074074,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 87.65625,
+              "y": 91.388889,
+              "width": 4.6875,
+              "height": 4.537037,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "218e286264e25bc85901c1d74d58b2c8c513022e2a5442dc5941c77bd3aec0f5"
+        },
+        {
+          "number": 8,
+          "src": "seminar/semester2/assets/inovasi/08-0ae49817bfab.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/08-0ae49817bfab.webp",
+          "alt": "Inovasi media tetap terhubung dengan praktik",
+          "title": "Inovasi media tetap terhubung dengan praktik",
+          "notes": "Hubungan dengan peran guru menjadi lebih jelas dalam tugas UAS tentang inovasi pembelajaran gambar teknik. Saya merancang penggunaan media interaktif sebagai bantuan untuk memahami alat, jenis garis, dan langkah konstruksi, kemudian menghubungkannya dengan praktik manual serta pemeriksaan hasil. Artefak ini saya pilih karena menunjukkan transfer dari inovasi produk menuju keputusan pembelajaran. Nilai media perlu dilihat dari kemampuannya membantu murid memahami, mencoba, dan memperbaiki pekerjaannya.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 67.34375,
+              "y": 91.111111,
+              "width": 6.25,
+              "height": 4.62963,
+              "targetSlide": 9,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 74.21875,
+              "y": 91.296296,
+              "width": 6.770833,
+              "height": 4.259259,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 80.677083,
+              "y": 91.203704,
+              "width": 6.354167,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.875,
+              "y": 91.296296,
+              "width": 6.09375,
+              "height": 4.351852,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.21875,
+              "y": 91.388889,
+              "width": 4.635417,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "0ae49817bfab7cc351db42b37f0d7f59b82ccad9eeeed49dceeb9672f16ad7de"
+        },
+        {
+          "number": 9,
+          "src": "seminar/semester2/assets/inovasi/09-a5212ce794df.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/09-a5212ce794df.webp",
+          "alt": "Evaluasi menggunakan bukti yang sesuai",
+          "title": "Evaluasi menggunakan bukti yang sesuai",
+          "notes": "Rancangan evaluasi di dalam tugas tersebut juga membantu saya memperjelas bukti yang diperlukan. Pemahaman konsep dapat diperiksa melalui penjelasan atau tes, keterampilan melalui praktik, dan kualitas gambar melalui produk serta revisi. Kesempatan membandingkan hasil sebelum dan sesudah perbaikan membuat evaluasi lebih berguna daripada sekadar menanyakan apakah murid menyukai media yang digunakan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 93.489583,
+              "y": 90.833333,
+              "width": 5.729167,
+              "height": 4.351852,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Slide berikutnya"
+            },
+            {
+              "id": "footer-connection",
+              "x": 70.78125,
+              "y": 90.925926,
+              "width": 5.78125,
+              "height": 3.981481,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 76.614583,
+              "y": 90.740741,
+              "width": 5.260417,
+              "height": 4.351852,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 82.135417,
+              "y": 90.833333,
+              "width": 5.052083,
+              "height": 4.259259,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 87.760417,
+              "y": 90.740741,
+              "width": 4.635417,
+              "height": 4.444444,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "a5212ce794dfff4322abfd2fadf5473d66a4c7ac75cbfed43e3a24cdbba14648"
+        },
+        {
+          "number": 10,
+          "src": "seminar/semester2/assets/inovasi/10-87f63cb1f504.webp",
+          "thumbnail": "seminar/semester2/assets/inovasi/thumbs/10-87f63cb1f504.webp",
+          "alt": "Saya menguji kebutuhan sebelum menambah fitur",
+          "title": "Saya menguji kebutuhan sebelum menambah fitur",
+          "notes": "Dari seluruh proses itu, saya ingin membiasakan pengembangan yang lebih terarah. Saya akan menentukan kebutuhan yang ingin dijawab, memilih bentuk awal yang cukup untuk diuji, mencatat kesulitan pengguna, dan memprioritaskan revisi berdasarkan bukti. Dalam pembelajaran, saya juga ingin memberi ruang bagi murid untuk menjelaskan alasan teknis dan mencoba alternatif yang tetap sesuai standar. Dengan kebiasaan ini, kemampuan saya membuat produk dan media dapat digunakan untuk menghadirkan perbaikan yang benar-benar dibutuhkan.",
+          "hotspots": [
+            {
+              "id": "home",
+              "x": 2.1875,
+              "y": 1.759259,
+              "width": 29.583333,
+              "height": 6.296296,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Kembali ke sampul presentasi"
+            },
+            {
+              "id": "next",
+              "x": 89.583333,
+              "y": 3.425926,
+              "width": 6.875,
+              "height": 4.907407,
+              "targetSlide": 1,
+              "href": null,
+              "label": "Ulang presentasi dari sampul"
+            },
+            {
+              "id": "footer-connection",
+              "x": 73.020833,
+              "y": 91.481481,
+              "width": 6.09375,
+              "height": 4.074074,
+              "targetSlide": 4,
+              "href": null,
+              "label": "Connection · buka slide 4",
+              "section": "connection"
+            },
+            {
+              "id": "footer-challenge",
+              "x": 79.21875,
+              "y": 91.296296,
+              "width": 6.875,
+              "height": 4.537037,
+              "targetSlide": 6,
+              "href": null,
+              "label": "Challenge · buka slide 6",
+              "section": "challenge"
+            },
+            {
+              "id": "footer-concept",
+              "x": 86.197917,
+              "y": 91.388889,
+              "width": 6.458333,
+              "height": 4.444444,
+              "targetSlide": 7,
+              "href": null,
+              "label": "Concept · buka slide 7",
+              "section": "concept"
+            },
+            {
+              "id": "footer-change",
+              "x": 94.0625,
+              "y": 91.203704,
+              "width": 4.84375,
+              "height": 4.722222,
+              "targetSlide": 10,
+              "href": null,
+              "label": "Change · buka slide 10",
+              "section": "change"
+            }
+          ],
+          "sourceSha256": "87f63cb1f504b9216967fe720839b9fe547c75aa7fb2fd32861148679b1db4d0"
+        }
+      ],
+      "sections": {
+        "connection": 4,
+        "challenge": 6,
+        "concept": 7,
+        "change": 10
+      }
+    }
+  ]
+}
